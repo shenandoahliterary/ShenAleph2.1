@@ -15,7 +15,7 @@ $upload_path =  $uploads['baseurl'];
 		<div class="text-center">
 <img class="" src="<?php echo $upload_path ?>/2022/06/572x700.jpg">
 		</div>
-<p class="d-flex justify-content-center"><em>[atwork title]</em>,&nbsp;&nbsp; <a href="">[artist name]</a></p>
+<p class="d-flex justify-content-center"><em>[artwork title]</em>,&nbsp;&nbsp; <a href="">[artist name]</a></p>
 	</div>
 </div>
 
