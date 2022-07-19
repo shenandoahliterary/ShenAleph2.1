@@ -26,7 +26,7 @@ $upload_path =  $uploads['baseurl'];
 
 	<div class="row">
 		<div class="col-md-8 offset-md-2 single-space-paragraphs">
-	<p><a href="https://shenandoahliterary.org/712/editors-note/">Editor&rsquo;s Note</a><br /><span class="author_name">Brenna Womer</span></p>
+	<p><a href="https://shenandoahliterary.org/712/editors-note/">Editor&rsquo;s Note</a><br /><span class="author_name">[Editor Name]</span></p>
 
 		</div>
 	</div>
