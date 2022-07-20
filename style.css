@@ -981,10 +981,9 @@ section.workAuthorBio a {
 .volumeIssueBanner {
 	color: #8c8c88;
 	font-family: "Theinhardt";
-	font-weight: 500;
-	font-size: 1.125em;
-	line-height: 2.25em;
-	padding-top: .5rem;
+	font-weight: 600;
+	font-size: 20px;
+	padding: 5px 0 2vw;
 }
 
 
