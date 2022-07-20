@@ -14,11 +14,12 @@
 	</div><!-- #content -->
 
 	<footer>
-		<div class="block"></div>
+		<div class="block">text</div>
+
 		<img src="https://shenandoahliterary.org/681/files/2018/12/Shenandoah-1600.jpg" class="img-fluid" alt="Shenandoah Volume 68, Number 1" itemprop="logo">
 
 	</footer><!-- #colophon -->
-	
+
 </div><!-- #page  also ends Bootstrap container-->
 
 <?php wp_footer(); ?>
