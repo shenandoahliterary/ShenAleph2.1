@@ -427,6 +427,9 @@ textarea {
 	padding-left: 4rem;
 }
 
+#typelogo-background{
+	background-color: rgb(103,173,168);
+}
 
 #typelogo {
 		font-family: "Theinhardt";
