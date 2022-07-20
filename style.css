@@ -49,6 +49,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 
 :root{
 	--background: rgb(103,173,168);
+	--top-padding: 15px;
 }
 
 
@@ -1521,6 +1522,11 @@ font-size: 1.3rem;
 	width: 100%;
 	height: 75px;
 	background-color: var(--background);
+}
+
+.socials{
+	padding-top: var(--top-padding);
+	padding-right: var(--top-padding);
 }
 
 /*--------------------------------------------------------------
