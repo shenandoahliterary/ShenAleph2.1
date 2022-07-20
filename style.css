@@ -436,6 +436,7 @@ textarea {
 	margin-bottom: -5vw;
 	position: sticky;
 	background-color: rgb(103,173,168);
+	z-index: -1;
 }
 
 #typelogo a:link {
