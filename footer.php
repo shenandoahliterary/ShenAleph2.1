@@ -14,7 +14,7 @@
 	</div><!-- #content -->
 
 	<footer>
-		<div class="footer-above">text</div>
+		<div id="footer-above">text</div>
 
 		<img src="https://shenandoahliterary.org/681/files/2018/12/Shenandoah-1600.jpg" class="img-fluid" alt="Shenandoah Volume 68, Number 1" itemprop="logo">
 
