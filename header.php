@@ -42,7 +42,7 @@
 			</a>
 		</div>
 
-		<div class="row" style="padding-top:20px">
+		<div class="row" style="padding-top:15px">
 			<div class="col-md-6">
 				<div class="volumeIssueBanner">
 					Volume 71, Number 2 &middot; Spring 2022
