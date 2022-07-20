@@ -53,7 +53,7 @@
 				<a class="nav-link" style="padding-right:2.3vw" href="https://shenandoahliterary.org/submissions/">Submit</a>
 				<a class="nav-link" style="padding-right:2.3vw" href="https://shenandoahliterary.org/thepeak">The Peak</a>
 			</div>
-			<hr style="padding-top:-5px">
+			<hr style="padding-top:-1vw">
 		</div>
 
 	</section>
