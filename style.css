@@ -1270,6 +1270,8 @@ a:hover, a:active {
     font-weight: 550;
     color: rgb(223,99,71);
     justify-content: right;
+	text-transform: uppercase;
+	
 }
 
 .main-navigation {
