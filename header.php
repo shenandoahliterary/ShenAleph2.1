@@ -31,11 +31,9 @@
 	<section class="topbanner-noborder container-fluid" id="typelogo-container">
 
 		<div class="row">
-			<div class="col md-12">
-				<p id="typelogo">
-					<a href="https://shenandoahLiterary.org/712/">Shenandoah</a>
-				</p>
-			</div>
+			<p id="typelogo">
+				<a href="https://shenandoahLiterary.org/712/">Shenandoah</a>
+			</p>
 		</div>
 
 		<div class="row">
