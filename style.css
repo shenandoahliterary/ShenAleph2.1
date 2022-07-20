@@ -432,14 +432,14 @@ textarea {
 }
 
 #typelogo {
-		font-family: "Theinhardt";
-		font-weight: 500;
-		font-size: 12vw;
-		text-transform: uppercase;
-		text-align: center;
-		margin-bottom: -5vw;
-		position: sticky;
-		color: white;
+	font-family: "Theinhardt";
+	font-weight: 500;
+	font-size: 12vw;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: -5vw;
+	position: sticky;
+	background-color: white;
 }
 
 #typelogo a:link {
