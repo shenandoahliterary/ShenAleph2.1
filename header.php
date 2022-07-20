@@ -30,7 +30,7 @@
 
 	<section class="topbanner-noborder container-fluid" id="typelogo-container">
 
-		<div class="row" id="typelogo-background">
+		<div class="row">
 			<p id="typelogo">
 				<a href="https://shenandoahLiterary.org/712/">Shenandoah</a>
 			</p>

@@ -427,10 +427,6 @@ textarea {
 	padding-left: 4rem;
 }
 
-#typelogo-background{
-	background-color: rgb(103,173,168);
-}
-
 #typelogo {
 	font-family: "Theinhardt";
 	font-weight: 500;
@@ -439,7 +435,7 @@ textarea {
 	text-align: center;
 	margin-bottom: -5vw;
 	position: sticky;
-	background-color: white;
+	background-color: rgb(103,173,168);
 }
 
 #typelogo a:link {
