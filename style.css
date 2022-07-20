@@ -1265,6 +1265,7 @@ a:hover, a:active {
 } */
 
 .nav-bar{
+	font-family: "Theinhardt";
     font-size: 20px;
     font-weight: 550;
     color: rgb(223,99,71);
