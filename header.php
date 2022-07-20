@@ -46,14 +46,13 @@
 					Volume 71, Number 2 &middot; Spring 2022
 				</div>
 			</div>
-			
+			<hr style="padding-top:-1vw">
 			<div class="d-flex flex-nowarp col-md-6 float-md-end nav-bar" role="navigation">
 				<a class="nav-link" style="padding-right:2.3vw" href="https://shenandoahliterary.org/about/">About</a>
 				<a class="nav-link" style="padding-right:2.3vw" href="https://shenandoahliterary.org/issues/">Issues</a>
 				<a class="nav-link" style="padding-right:2.3vw" href="https://shenandoahliterary.org/submissions/">Submit</a>
 				<a class="nav-link" style="padding-right:2.3vw" href="https://shenandoahliterary.org/thepeak">The Peak</a>
 			</div>
-			<hr style="padding-top:-1vw">
 		</div>
 
 	</section>
