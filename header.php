@@ -37,7 +37,9 @@
 		</div>
 
 		<div class="row">
-			<a href="https://shenandoahliterary.org/711/" rel="home" itemprop="url"><img src="https://shenandoahliterary.org/681/files/2018/12/Shenandoah-1600.jpg" class="img-fluid" alt="Shenandoah Volume 68, Number 1" itemprop="logo"></a>
+			<a href="https://shenandoahliterary.org/711/" rel="home" itemprop="url">
+				<img src="https://shenandoahliterary.org/681/files/2018/12/Shenandoah-1600.jpg" class="img-fluid" alt="Shenandoah Volume 68, Number 1" itemprop="logo">
+			</a>
 		</div>
 
 		<div class="row" style="padding-top:10px">
