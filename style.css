@@ -436,7 +436,6 @@ textarea {
 	margin-bottom: -5vw;
 	position: sticky;
 	background-color: rgb(103,173,168);
-	z-index: -1;
 }
 
 #typelogo a:link {
@@ -1564,6 +1563,7 @@ object {
 .img-fluid {
     width: 100%;
     position: sticky;
+	z-index: -1;
 }
 
 .cover-row {
