@@ -1512,7 +1512,7 @@ font-size: 1.3rem;
 ## Footer
 --------------------------------------------------------------*/
 
-#footer-above{
+.footer-above{
 	width: 100%;
 	height: 75px;
 	background-color: var(--background);
