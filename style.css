@@ -1525,8 +1525,7 @@ font-size: 1.3rem;
 }
 
 #socials{
-	padding-top: var(--top-padding);
-	padding-right: var(--top-padding);
+	padding: var(--top-padding);
 }
 
 /*--------------------------------------------------------------
