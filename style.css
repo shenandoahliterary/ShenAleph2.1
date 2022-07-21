@@ -1523,8 +1523,6 @@ font-size: 1.3rem;
 }
 
 #images{
-	width: 20px;
-	height: auto;
 	padding: var(--top-padding);
 }
 
