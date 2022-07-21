@@ -1529,8 +1529,8 @@ font-size: 1.3rem;
 }
 
 .links img{
-	width: 100%;
-	height: auto;
+	height: 100%;
+	width: auto;
 	background-color: purple;
 }
 
