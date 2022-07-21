@@ -1531,10 +1531,12 @@ font-size: 1.3rem;
 }
 
 .wl-logo, .clmp{
+	display: inline-block;
 	padding-top: var(--top-padding);
 }
 
 .wl-logo img, .clmp img{
+	display: block;
 	height: auto;
 	width: auto;
 	background-color: purple;
