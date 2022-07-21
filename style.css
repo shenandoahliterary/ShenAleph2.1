@@ -1531,7 +1531,7 @@ font-size: 1.3rem;
 }
 
 .wl-logo, .clmp{
-	height: 80px;
+	padding-top: var(--top-padding);
 }
 
 .wl-logo img, .clmp img{
