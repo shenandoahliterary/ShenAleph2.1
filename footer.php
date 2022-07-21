@@ -22,7 +22,7 @@
 				<a href="https://twitter.com/ShenandoahWLU"><i class="fab fa-twitter"></i></a>   
 			</div>
  
-			<div class="col text-end" style="position: relative">
+			<div class="col text-end">
 				<a class="wl-logo" style="background-color:red" href = "https://www.wlu.edu/"><img style="opacity:0.5" src="https://shenandoahliterary.org/681/files/2018/12/wlu-w300.png"></a>
 				<a class="clmp" style="background-color:blue" href = "https://www.clmp.org/"><img style="opacity:0.5" src="https://shenandoahliterary.org/681/files/2018/12/clmp.png" href = "https://www.clmp.org/"></a>
 			</div>
