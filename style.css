@@ -1518,11 +1518,11 @@ font-size: 1.3rem;
 	background-color: var(--background);
 }
 
-#socials, .images{
+#socials{
 	padding: var(--top-padding);
 }
 
-.links, .images{
+.images{
 	width: 50%;
 	height: auto;
 }
