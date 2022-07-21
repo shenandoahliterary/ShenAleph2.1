@@ -23,8 +23,8 @@
 			</div>
  
 			<div class="col text-end">
-				<a class="links" style="background-color:red" href = "https://www.wlu.edu/"><img src="https://shenandoahliterary.org/681/files/2018/12/wlu-w300.png"></a>
-				<a class="links" style="background-color:orange" href = "https://www.clmp.org/"><img src="https://shenandoahliterary.org/681/files/2018/12/clmp.png" href = "https://www.clmp.org/"></a>
+				<a class="links" style="background-color:red" href = "https://www.wlu.edu/"><img style="background-color:purple; opacity:0.5" src="https://shenandoahliterary.org/681/files/2018/12/wlu-w300.png"></a>
+				<a class="links" style="background-color:blue" href = "https://www.clmp.org/"><img style="background-color:yellow; opacity:0.5" src="https://shenandoahliterary.org/681/files/2018/12/clmp.png" href = "https://www.clmp.org/"></a>
 			</div>
 
 		</div>
