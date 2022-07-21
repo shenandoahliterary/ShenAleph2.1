@@ -17,12 +17,12 @@
 		<div class="row footer-above">
 
 			<div class="col" id="socials">
-				<a href="https://www.facebook.com/ShenandoahLiterary"><i class="fab fa-facebook-square"></i></a> 
+				<a href="https://www.facebook.com/ShenandoahLiterary"><i class="fab fa-facebook-square" style="padding-left:15px"></i></a> 
 				<a href="https://www.instagram.com/shenandoah_literary"><i class="fab fa-instagram"></i></a> 
 				<a href="https://twitter.com/ShenandoahWLU"><i class="fab fa-twitter"></i></a>   
 			</div>
  
-			<div class="col d-flex float-end" >
+			<div class="col d-flex float-end">
 				<a href = "https://www.wlu.edu/"><img class="images" src="https://shenandoahliterary.org/681/files/2018/12/wlu-w300.png"></a>
 				<a href = "https://www.clmp.org/"><img class="images" src="https://shenandoahliterary.org/681/files/2018/12/clmp.png" href = "https://www.clmp.org/"></a>
 			</div>
