@@ -1524,6 +1524,7 @@ font-size: 1.3rem;
 
 .images{
 	width: 20%;
+	height: auto;
 	padding-top: var(--top-padding);
 }
 
