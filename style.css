@@ -1522,7 +1522,7 @@ font-size: 1.3rem;
 	padding: var(--top-padding);
 }
 
-#images{
+.images{
 	width: 10%;
 	height: auto;
 	padding: var(--top-padding);
