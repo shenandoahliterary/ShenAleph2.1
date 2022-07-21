@@ -15,19 +15,21 @@
 
 	<footer>
 		<div class="row">
-			<div class="col text-end">
-				<div class="footer-above">
+			<div class="footer-above">
+				<div class="col text-end">
 					<span id="socials">
 						<a href="https://www.facebook.com/ShenandoahLiterary"><i class="fab fa-facebook-square"></i></a> 
 						<a href="https://www.instagram.com/shenandoah_literary"><i class="fab fa-instagram"></i></a> 
 						<a href="https://twitter.com/ShenandoahWLU"><i class="fab fa-twitter"></i></a>   
 					</span>
 				</div>
+
+				<div class="col">
+
+				</div>
 			</div>
 
-			<div class="col">
 
-			</div>
 		</div>
 
 		<img src="https://shenandoahliterary.org/681/files/2018/12/Shenandoah-1600.jpg" class="img-fluid" alt="Shenandoah Volume 68, Number 1" itemprop="logo">
