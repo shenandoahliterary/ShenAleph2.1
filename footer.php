@@ -22,9 +22,9 @@
 				<a href="https://twitter.com/ShenandoahWLU"><i class="fab fa-twitter"></i></a>   
 			</div>
  
-			<div class="col d-flex float-end" id="images">
-				<a href = "https://www.wlu.edu/"><img style="width:30%" src="https://shenandoahliterary.org/681/files/2018/12/wlu-w300.png"></a>
-				<a href = "https://www.clmp.org/"><img style="width:30%" src="https://shenandoahliterary.org/681/files/2018/12/clmp.png" href = "https://www.clmp.org/"></a>
+			<div class="col d-flex float-end" >
+				<a href = "https://www.wlu.edu/"><img class="images" src="https://shenandoahliterary.org/681/files/2018/12/wlu-w300.png"></a>
+				<a href = "https://www.clmp.org/"><img class="images" src="https://shenandoahliterary.org/681/files/2018/12/clmp.png" href = "https://www.clmp.org/"></a>
 			</div>
 
 		</div>
