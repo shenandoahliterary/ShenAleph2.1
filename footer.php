@@ -16,7 +16,7 @@
 	<footer>
 		<div class="row">
 			<div class="footer-above">
-				<div class="col text-end">
+				<div class="col text-start">
 					<div id="socials">
 						<a href="https://www.facebook.com/ShenandoahLiterary"><i class="fab fa-facebook-square"></i></a> 
 						<a href="https://www.instagram.com/shenandoah_literary"><i class="fab fa-instagram"></i></a> 
