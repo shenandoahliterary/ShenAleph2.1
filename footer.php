@@ -23,7 +23,6 @@
 			</div>
  
 			<div class="col float-end images" style="background-color:lightblue">
-				<a href = "https://shenandoahliterary.org/"><img class="shen-logo-footer" src="https://shenandoahliterary.org/681/files/2018/12/shen-w175.png"></a>
 				<a href = "https://www.wlu.edu/"><img src="https://shenandoahliterary.org/681/files/2018/12/wlu-w300.png"></a>
 				<a href = "https://www.clmp.org/"><img src="https://shenandoahliterary.org/681/files/2018/12/clmp.png" href = "https://www.clmp.org/"></a>
 			</div>
