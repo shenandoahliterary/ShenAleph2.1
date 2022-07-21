@@ -22,7 +22,7 @@
 				<a href="https://twitter.com/ShenandoahWLU"><i class="fab fa-twitter"></i></a>   
 			</div>
  
-			<div class="col d-flex float-end">
+			<div class="col text-end">
 				<a class="links" href = "https://www.wlu.edu/"><img src="https://shenandoahliterary.org/681/files/2018/12/wlu-w300.png"></a>
 				<a class="links" href = "https://www.clmp.org/"><img src="https://shenandoahliterary.org/681/files/2018/12/clmp.png" href = "https://www.clmp.org/"></a>
 			</div>
