@@ -1527,7 +1527,6 @@ font-size: 1.3rem;
 	width: 10%;
 	height: auto;
 	padding: var(--top-padding);
-	z-index: 1;
 }
 
 /*--------------------------------------------------------------
