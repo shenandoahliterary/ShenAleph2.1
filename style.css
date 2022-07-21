@@ -1522,12 +1522,19 @@ font-size: 1.3rem;
 	padding: var(--top-padding);
 }
 
-.links{
-	height: 80px;
-	padding-top: var(--top-padding);
+.wl-logo{
+	height: 50px;
 }
 
-.links img{
+.clmp{
+	height: 80px;
+}
+
+.wl-logo, .clmp{
+	height: 80px;
+}
+
+.wl-logo img, .clmp img{
 	height: auto;
 	width: auto;
 	background-color: purple;
