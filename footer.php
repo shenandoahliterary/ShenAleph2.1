@@ -23,9 +23,9 @@
 				</div>
 
 				<div class="col text-end" id="images">
-					<a href = "https://shenandoahliterary.org/"><img class="img-fluid float-left shen-logo-footer" src="https://shenandoahliterary.org/681/files/2018/12/shen-w175.png"></a>
-					<a href = "https://www.wlu.edu/"><img class="img-fluid wlu-logo" src="https://shenandoahliterary.org/681/files/2018/12/wlu-w300.png"></a>
-					<a href = "https://www.clmp.org/"><img class="img-fluid float-right" src="https://shenandoahliterary.org/681/files/2018/12/clmp.png" href = "https://www.clmp.org/"></a>
+					<a href = "https://shenandoahliterary.org/"><img class="img-fluid shen-logo-footer" src="https://shenandoahliterary.org/681/files/2018/12/shen-w175.png"></a>
+					<a href = "https://www.wlu.edu/"><img class="img-fluid" src="https://shenandoahliterary.org/681/files/2018/12/wlu-w300.png"></a>
+					<a href = "https://www.clmp.org/"><img class="img-fluid" src="https://shenandoahliterary.org/681/files/2018/12/clmp.png" href = "https://www.clmp.org/"></a>
 				</div>
 			</div>
 
