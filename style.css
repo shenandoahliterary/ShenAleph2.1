@@ -1523,8 +1523,8 @@ font-size: 1.3rem;
 }
 
 .links{
-	width: 20px;
-	height: 20px;
+	width: 50px;
+	height: 50px;
 	padding-top: var(--top-padding);
 }
 
