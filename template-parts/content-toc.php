@@ -39,6 +39,7 @@ $upload_path =  $uploads['baseurl'];
 		</div>
 		
 		<div class="col-md-8>
+
 			<?php
 				remove_all_filters('posts_orderby');
 				$fiction_args = array(
@@ -121,8 +122,6 @@ $upload_path =  $uploads['baseurl'];
 			?>
 			<span class="author_name"><?php the_author(); ?> </span>
 			
-			</p>
-
 			<?php
 					wp_reset_postdata();
 					}
