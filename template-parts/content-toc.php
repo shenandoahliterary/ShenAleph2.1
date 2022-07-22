@@ -59,9 +59,7 @@ $upload_path =  $uploads['baseurl'];
 					$authornames[$this_author_id] = $this_author;
 
 				//print statement of title and author just below worked but put each work and author separately
-			?>
 
-			<?php
 				endwhile;
 
 				//group posts by author
@@ -74,10 +72,7 @@ $upload_path =  $uploads['baseurl'];
 						'order' => 'asc',
 						'nopaging' => 'true'
 				);
-			?>
-
-				
-			<?php
+		
 				//start WP loop
 				$fiction_loop_single = new WP_Query($args);
 
