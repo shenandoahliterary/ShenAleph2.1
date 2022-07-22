@@ -26,71 +26,72 @@ $upload_path =  $uploads['baseurl'];
 
 	<div class="row">
 		<div class="col-md-8 offset-md-2 single-space-paragraphs">
-	<p><a href="https://shenandoahliterary.org/712/editors-note/">Editor&rsquo;s Note</a><br /><span class="author_name">[Editor Name]</span></p>
-
+			<p><a href="https://shenandoahliterary.org/712/editors-note/">Editor&rsquo;s Note</a><br /><span class="author_name">[Editor Name]</span></p>
 		</div>
 	</div>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
 
-<div class="row">
-	<div class="col-md-4 offset-md-1 TOC-column-1">
-		<h3>Fiction
-		</h3>
-		<div>
-			<?php
-			remove_all_filters('posts_orderby');
-			$fiction_args = array(
-				'category_name' => 'fiction',
-				'order' => 'ASC',
-				'meta_key' => 'TOC_order',
-				'orderby' => 'meta_value_num',
-				'meta_type' => 'NUMERIC',
-				'nopaging' => 'true',
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
 
-			);
-			$fiction_loop = new WP_Query($fiction_args);
+	<div class="row">
+		<div class="col-md-4 offset-md-1 TOC-column-1">
+			<h3>Fiction</h3>
+			<div>
+				<?php
+				remove_all_filters('posts_orderby');
+				$fiction_args = array(
+					'category_name' => 'fiction',
+					'order' => 'ASC',
+					'meta_key' => 'TOC_order',
+					'orderby' => 'meta_value_num',
+					'meta_type' => 'NUMERIC',
+					'nopaging' => 'true',
+				);
+				$fiction_loop = new WP_Query($fiction_args);
 				$authornames = array();
 
-					while ($fiction_loop->have_posts()) : $fiction_loop->the_post();
-						$this_author= get_post_meta($post->ID, 'author_lastname', true);
-						$this_author_id =get_the_author_meta('ID');
-						$authornames[$this_author_id] = $this_author;
+				while ($fiction_loop->have_posts()) : $fiction_loop->the_post();
+					$this_author= get_post_meta($post->ID, 'author_lastname', true);
+					$this_author_id =get_the_author_meta('ID');
+					$authornames[$this_author_id] = $this_author;
 
-		//needs refactoring. Is this doing anything?
+				//print statement of title and author just below worked but put each work and author separately
+				?>
 
-		//print statement of title and author just below worked but put each work and author separately
-		?>
-
-		<?php
+				<?php
 					endwhile;
 
 
-		//group posts by author
+					//group posts by author
 
-				foreach ($authornames as $author_id=>$author_lastname) {
-					$args = array(
-				'category_name' => 'fiction',
-				'author' => $author_id,
-				'orderby' => 'date',
-				'order' => 'asc',
-				'nopaging' => 'true'
-				);
+					foreach ($authornames as $author_id=>$author_lastname) {
+						$args = array(
+							'category_name' => 'fiction',
+							'author' => $author_id,
+							'orderby' => 'date',
+							'order' => 'asc',
+							'nopaging' => 'true'
+						);
 				?>
+
+				
 				<?php
-				//start WP loop
-				$fiction_loop_single = new WP_Query($args);
+					//start WP loop
+					$fiction_loop_single = new WP_Query($args);
 
-				$i = 0;
-				//open paragraph for title(s)/author
-				echo "<p>";
-					while ($fiction_loop_single->have_posts()) : 				$fiction_loop_single->the_post();
-					//for each author, print title,  author
-					?>
+					$i = 0;
 
-					<a href="<?php the_permalink(); ?>">
-				<?php the_title(); ?>
-					</a><br />
+					//open paragraph for title(s)/author
+					echo "<p>";
+					while ($fiction_loop_single->have_posts()) : 				
+						$fiction_loop_single->the_post();
+						//for each author, print title,  author
+				
+				?>
+
+						<a href="<?php the_permalink(); ?>">
+					<?php the_title(); ?>
+						</a><br />
 
 
 
