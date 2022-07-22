@@ -38,7 +38,7 @@ $upload_path =  $uploads['baseurl'];
 			<h3 style="font-size: 4.3vw">Fiction</h3>
 		</div>
 		
-		<div class="col-md-8>
+		<div class="col-md-8">
 
 			<?php
 				remove_all_filters('posts_orderby');
