@@ -36,7 +36,9 @@ $upload_path =  $uploads['baseurl'];
 	<div class="row">
 		<div class="col-md-4 offset-md-1 TOC-column-1">
 			<h3>Fiction</h3>
-			<div>
+		</div>
+		
+		<div class="col-md-8>
 				<?php
 				remove_all_filters('posts_orderby');
 				$fiction_args = array(
@@ -99,8 +101,8 @@ $upload_path =  $uploads['baseurl'];
 					<?php
 //check for author's note
 
-$custom_fields = get_post_custom();
-$has_author_note = $custom_fields['has_author_note'];
+				$custom_fields = get_post_custom();
+				$has_author_note = $custom_fields['has_author_note'];
 
 					$i++;
 					
@@ -126,7 +128,7 @@ URLLINK;
 		</div>
 
 
-			</div>
+		</div>
 			
 </div> <!-- close row -->
 
