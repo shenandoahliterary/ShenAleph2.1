@@ -35,7 +35,7 @@ $upload_path =  $uploads['baseurl'];
 
 	<div class="row">
 		<div class="col-md-4 offset-md-1 TOC-column-1">
-			<h3>Fiction</h3>
+			<h3 style="font-size: 5vw">Fiction</h3>
 		</div>
 		
 		<div class="col-md-8>
@@ -95,7 +95,7 @@ $upload_path =  $uploads['baseurl'];
 
 			<?php the_title(); ?>
 			
-			</a><br />
+			</a><br/>
 
 			<?php
 				//check for author's note
@@ -120,12 +120,13 @@ $upload_path =  $uploads['baseurl'];
 					URLLINK;
 				}
 			?>
+
 			<span class="author_name"><?php the_author(); ?> </span>
 			
 			<?php
-					wp_reset_postdata();
-					}
-				?>
+				wp_reset_postdata();
+				}
+			?>
 
 		</div> <!-- ends 2nd column -->
 
