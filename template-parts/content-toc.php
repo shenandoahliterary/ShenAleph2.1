@@ -35,7 +35,7 @@ $upload_path =  $uploads['baseurl'];
 
 	<div class="row">
 		<div class="col-md-4 offset-md-1 TOC-column-1">
-			<h3 style="font-size: 4vw">Fiction</h3>
+			<h3 style="font-size: 4.3vw">Fiction</h3>
 		</div>
 		
 		<div class="col-md-8>
