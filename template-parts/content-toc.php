@@ -28,7 +28,7 @@ $upload_path =  $uploads['baseurl'];
 		<div class="col-md-8 offset-md-2 single-space-paragraphs">
 			<p><a href="https://shenandoahliterary.org/712/editors-note/">Editor&rsquo;s Note</a><br /><span class="author_name">[Editor Name]</span></p>
 		</div>
-	</div>
+	</div> 
 
 	<p>&nbsp;</p>
 	<p>&nbsp;</p>
@@ -39,7 +39,7 @@ $upload_path =  $uploads['baseurl'];
 		</div>
 		
 		<div class="col-md-8>
-				<?php
+			<?php
 				remove_all_filters('posts_orderby');
 				$fiction_args = array(
 					'category_name' => 'fiction',
@@ -58,89 +58,88 @@ $upload_path =  $uploads['baseurl'];
 					$authornames[$this_author_id] = $this_author;
 
 				//print statement of title and author just below worked but put each work and author separately
-				?>
+			?>
 
-				<?php
-					endwhile;
+			<?php
+				endwhile;
 
+				//group posts by author
 
-					//group posts by author
-
-					foreach ($authornames as $author_id=>$author_lastname) {
-						$args = array(
-							'category_name' => 'fiction',
-							'author' => $author_id,
-							'orderby' => 'date',
-							'order' => 'asc',
-							'nopaging' => 'true'
-						);
-				?>
+				foreach ($authornames as $author_id=>$author_lastname) {
+					$args = array(
+						'category_name' => 'fiction',
+						'author' => $author_id,
+						'orderby' => 'date',
+						'order' => 'asc',
+						'nopaging' => 'true'
+				);
+			?>
 
 				
-				<?php
-					//start WP loop
-					$fiction_loop_single = new WP_Query($args);
+			<?php
+				//start WP loop
+				$fiction_loop_single = new WP_Query($args);
 
-					$i = 0;
+				$i = 0;
 
-					//open paragraph for title(s)/author
-					echo "<p>";
-					while ($fiction_loop_single->have_posts()) : 				
-						$fiction_loop_single->the_post();
-						//for each author, print title,  author
-				
-				?>
+				//open paragraph for title(s)/author
+				echo "<p>";
+				while ($fiction_loop_single->have_posts()) : 				
+					$fiction_loop_single->the_post();
+					//for each author, print title,  author
+			
+			?>
 
-						<a href="<?php the_permalink(); ?>">
-					<?php the_title(); ?>
-						</a><br />
+			<a href="<?php the_permalink(); ?>">
 
+			<?php the_title(); ?>
+			
+			</a><br />
 
-
-
-					<?php
-//check for author's note
+			<?php
+				//check for author's note
 
 				$custom_fields = get_post_custom();
 				$has_author_note = $custom_fields['has_author_note'];
 
-					$i++;
+				$i++;
 					
 				endwhile;
 				$custom_fields_test = get_post_custom();
 				$has_author_note_test = $custom_fields_test['has_author_note'];
+
 				//print author outside of the loop
 				if (! empty($has_author_note)) {
-				$author_note_url = site_url();
-				//echo "test: $has_author_note_test[0]";
-				echo <<<URLLINK
-<a href="$author_note_url/$has_author_note[0]/">Author's Note</a><br />
-URLLINK;
-				}
-				?>
-				<span class="author_name"><?php the_author(); ?> </span>
-			</p>
-		<?php
-				wp_reset_postdata();
+					$author_note_url = site_url();
+
+					//echo "test: $has_author_note_test[0]";
+					echo <<<URLLINK
+
+					<a href="$author_note_url/$has_author_note[0]/">Author's Note</a><br />
+					URLLINK;
 				}
 			?>
-
-		</div>
-
-
-		</div>
+			<span class="author_name"><?php the_author(); ?> </span>
 			
-</div> <!-- close row -->
+			</p>
+
+			<?php
+					wp_reset_postdata();
+					}
+				?>
+
+		</div> <!-- ends 2nd column -->
 
 
-<div class="row">
-	<div class="col-md-8 offset-md-2 single-space-paragraphs">
-	<p><a href="https://shenandoahliterary.org/712/masthead/">Masthead</a></p>
-<p><a href="https://shenandoahliterary.org/712/contributors/">List of Contributors</a></p>
+	</div> <!-- closes row -->
 
-
+	<div class="row">
+		<div class="col-md-8 offset-md-2 single-space-paragraphs">
+			<p><a href="https://shenandoahliterary.org/712/masthead/">Masthead</a></p>
+			<p><a href="https://shenandoahliterary.org/712/contributors/">List of Contributors</a></p>
+		</div>
 	</div>
-</div>
+
 </section>
 
 <!--  Quote section -->
