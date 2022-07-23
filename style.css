@@ -441,19 +441,20 @@ textarea {
 	font-size: 12vw;
 	text-transform: uppercase;
 	text-align: center;
-	color: white;
 	margin-bottom: -5vw;
 }
 
 #typelogo a:link {
 	text-decoration: none;
-	color: #181818;
+	color: white;
 }
 
 #typelogo a:visited {
 	text-decoration: none;
-	color: #181818;
+	color: white;
 }
+
+/* 181818 */
 
 .metadata-row {
 	max-width: 1275px;
