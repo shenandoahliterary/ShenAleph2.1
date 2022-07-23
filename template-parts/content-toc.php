@@ -377,7 +377,6 @@ $upload_path =  $uploads['baseurl'];
 		<div class="col-md-11">
 
 		<?php
-
 			$args = array(
 				'meta_key'			=> 'add-quote-to-toc',
 				'meta_value'		=> 'Yes',
