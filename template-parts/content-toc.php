@@ -35,7 +35,7 @@ $upload_path =  $uploads['baseurl'];
 
 	<div class="row justify-content-center">
 		<div class="col-5 TOC-column-1">
-			<h3 class="headers">Fiction</h3>
+			<h3 class="genre-titles">Fiction</h3>
 		</div>
 		
 		<div class="col-6">
@@ -128,11 +128,12 @@ $upload_path =  $uploads['baseurl'];
 	</div> <!-- closes row -->
 
 	<p>&nbsp;</p>
+	<p>&nbsp;</p>
 
 	<div class="row justify-content-center"> <!-- opens row for novel excerpt -->
 
 		<div class="col-5 TOC-column-1">
-			<h3 class="headers">Novel Excerpt</h3>
+			<h3 class="genre-titles">Novel Excerpt</h3>
 		</div>
 
 		<div class="col-6">
