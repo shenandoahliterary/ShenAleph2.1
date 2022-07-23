@@ -23,7 +23,7 @@
 			</div>
  
 			<div class="col text-end">
-				<a class="wl-logo" href = "https://www.wlu.edu/"><img style="background-color:purple" src="https://shenandoahliterary.org/681/files/2018/12/wlu-w300.png"></a>
+				<a class="wl-logo" href = "https://www.wlu.edu/"><img style="text-align:center" src="https://shenandoahliterary.org/681/files/2018/12/wlu-w300.png"></a>
 				<br>
 				<a class="clmp" href = "https://www.clmp.org/"><img style="background-color:blue" src="https://shenandoahliterary.org/681/files/2018/12/clmp.png" href = "https://www.clmp.org/"></a>
 			</div>
