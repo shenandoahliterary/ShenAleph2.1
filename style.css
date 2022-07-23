@@ -472,7 +472,6 @@ footer hr {
 	visibility: hidden;
 }
 
-
 .entry-header {
 margin-top: 5.5rem;
 }
@@ -992,7 +991,7 @@ section.workAuthorBio a {
 	text-align: right;
 	font-size: 3vw; 
 	text-transform: lowercase; 
-	margin-top: 1.5vw;
+	top: 0;
 }
 
 .TOC-column-1 h3:not(:first-of-type) {
