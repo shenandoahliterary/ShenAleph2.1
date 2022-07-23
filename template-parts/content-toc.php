@@ -38,7 +38,7 @@ $upload_path =  $uploads['baseurl'];
 			<h3 style="font-size: 4.3vw">Fiction</h3>
 		</div>
 		
-		<div class="col-md-7">
+		<div class="col-md-7 text-start">
 
 			<?php
 				remove_all_filters('posts_orderby');
@@ -115,7 +115,6 @@ $upload_path =  $uploads['baseurl'];
 					}
 			?>
 
-					//print author outside of the loop
 					<span class="author_name"><?php the_author(); ?> </span>
 					
 			<?php
