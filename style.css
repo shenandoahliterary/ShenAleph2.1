@@ -1509,7 +1509,7 @@ font-size: 1.3rem;
 	background-color: var(--background);
 }
 
-#socials{
+.footer-above a{
 	padding: var(--top-padding);
 }
 
