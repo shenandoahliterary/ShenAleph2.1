@@ -993,14 +993,11 @@ section.workAuthorBio a {
 	padding: 0 0 0 2vw;
 }
 
-.genre-titles{
+.TOCsection h3 {
+	text-align: center;
 	font-size: 5vw; 
 	text-transform: uppercase; 
 	padding-top: 1.5vw
-}
-
-.TOCsection h3 {
-	text-align: center;
 }
 
 .TOC-column-1 h3:not(:first-of-type) {
