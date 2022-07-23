@@ -1011,14 +1011,9 @@ section.workAuthorBio a {
 }
 
 .TOC-quote {
-	min-height: 14rem;
-	text-align: center;
-	font-size: 3rem;
-	margin-top: 6rem;
-}
-
-.TOC-text {
-
+	min-height: 2vw;
+	font-size: 3vw;
+	margin-top: 15px;
 }
 
 hr {
