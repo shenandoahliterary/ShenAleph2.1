@@ -38,7 +38,7 @@ $upload_path =  $uploads['baseurl'];
 			<h3>Fiction</h3>
 		</div>
 		
-		<div class="col-4">
+		<div class="col-6">
 
 			<?php
 				remove_all_filters('posts_orderby');
@@ -135,7 +135,7 @@ $upload_path =  $uploads['baseurl'];
 			<h3>Novel Excerpt</h3>
 		</div>
 
-		<div class="col-4">
+		<div class="col-6">
 			
 			<?php
 			remove_all_filters('posts_orderby');
