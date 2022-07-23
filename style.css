@@ -444,14 +444,10 @@ textarea {
 	margin-bottom: -5vw;
 }
 
-#typelogo a:link {
+#typelogo a:link, #typelogo a:visited {
 	text-decoration: none;
 	color: white;
-}
-
-#typelogo a:visited {
-	text-decoration: none;
-	color: white;
+	-webkit-text-stroke: #181818;
 }
 
 /* 181818 */
