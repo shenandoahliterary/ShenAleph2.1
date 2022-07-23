@@ -369,6 +369,8 @@ $upload_path =  $uploads['baseurl'];
 
 </section>
 
+<p>&nbsp;</p>
+
 <!--  Quote section -->
 <section class="container TOC-quote" style="background-color:lightpink">
 
