@@ -31,7 +31,6 @@ $upload_path =  $uploads['baseurl'];
 	</div> 
 
 	<p>&nbsp;</p>
-	<p>&nbsp;</p>
 
 	<div class="row justify-content-center">
 		<div class="col-4 TOC-column-1">
