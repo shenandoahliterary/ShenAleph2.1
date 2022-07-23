@@ -993,7 +993,11 @@ section.workAuthorBio a {
 	padding: 0 0 0 2vw;
 }
 
-
+.headers{
+	font-size: 4.3vw; 
+	text-transform: uppercase; 
+	padding-top: 1.5vw
+}
 
 .TOCsection h3 {
 	text-align: center;
