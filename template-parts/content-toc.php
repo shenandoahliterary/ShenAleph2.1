@@ -34,11 +34,11 @@ $upload_path =  $uploads['baseurl'];
 	<p>&nbsp;</p>
 
 	<div class="row justify-content-center">
-		<div class="col-5 TOC-column-1" style="background-color:lightblue">
+		<div class="col-4 TOC-column-1" style="background-color:lightblue">
 			<h3 style="font-size: 4.3vw">Fiction</h3>
 		</div>
 		
-		<div class="col-md-5" style="background-color:lightpink">
+		<div class="col-4" style="background-color:lightpink">
 
 			<?php
 				remove_all_filters('posts_orderby');
