@@ -994,7 +994,7 @@ section.workAuthorBio a {
 }
 
 .TOCsection h3 {
-	text-align: center;
+	text-align: right;
 	font-size: 3vw; 
 	text-transform: lowercase; 
 	padding-top: 1.5vw
