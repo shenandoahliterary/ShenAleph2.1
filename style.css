@@ -1515,11 +1515,12 @@ font-size: 1.3rem;
 
 .wl-logo{
 	width: 120px;
+	margin-top: -5px;
 }
 
 .clmp{
 	width: 140px;
-	margin-top: -20px;
+	margin-top: -25px;
 }
 
 .wl-logo, .clmp{
