@@ -1513,6 +1513,10 @@ font-size: 1.3rem;
 	padding: var(--top-padding);
 }
 
+a:nth-last-child(1){
+	padding-top:-5px;
+}
+
 .wl-logo{
 	width: 120px;
 }
