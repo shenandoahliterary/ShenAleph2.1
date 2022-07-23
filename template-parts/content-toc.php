@@ -371,44 +371,47 @@ $upload_path =  $uploads['baseurl'];
 
 <!--  Quote section -->
 <section class="container TOC-quote">
-<div class="row">
-	<div class="col-md-11 offset-md-1 h-100">
-<?php
+	<div class="row">
+		<div class="col-md-11 offset-md-1 h-100">
 
-$args = array(
-    'meta_key'         => 'add-quote-to-toc',
-		'meta_value'   => 'Yes',
-		'compare' => 'Like',
-		'post_type'        => 'page',
-    'post_status'      => 'publish',
+		<?php
 
-);
-$query = new WP_Query($args);
+			$args = array(
+				'meta_key'			=> 'add-quote-to-toc',
+				'meta_value'		=> 'Yes',
+				'compare'			=> 'Like',
+				'post_type'			=> 'page',
+				'post_status'		=> 'publish',
+			);
 
-if ($query->have_posts()) :
-		 while($query->have_posts()) :
-				$query->the_post();
-?>
+			$query = new WP_Query($args);
 
-				<?php the_content() ?>
+			if ($query->have_posts()) :
+				while($query->have_posts()) :
+					$query->the_post();
+		?>
 
-<?php
-		 endwhile;
-	else:
-		
-?>
+		<?php the_content() ?>
 
-		 Oops, there is no quote. 
+		<?php
+				endwhile;
+			else:
+		?>
 
-<?php
+		Oops, there is no quote. 
 
-	endif;
-	wp_reset_postdata();
+		<?php
+			endif;
 
-?>
-		</div>
-	</div>
+			wp_reset_postdata();
+		?>
+
+		</div> <!-- ends column -->
+
+	</div> <!-- ends row -->
+
 </section>
+
 <!--  Features section -->
 
 </div>
