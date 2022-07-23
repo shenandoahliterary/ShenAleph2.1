@@ -35,7 +35,7 @@ $upload_path =  $uploads['baseurl'];
 
 	<div class="row justify-content-center">
 		<div class="col-5 TOC-column-1" style="background-color:lightblue">
-			<h3 style="font-size: 4.3vw; text-transform: uppercase; padding-top: .5vw">Fiction</h3>
+			<h3 style="font-size: 4.3vw; text-transform: uppercase; padding-top: 1vw">Fiction</h3>
 		</div>
 		
 		<div class="col-6" style="background-color:lightpink">
