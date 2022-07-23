@@ -374,7 +374,7 @@ $upload_path =  $uploads['baseurl'];
 
 	<div class="row justify-content-center">
 
-		<div class="col-md-11 h-100">
+		<div class="col-md-11 h-50">
 
 		<?php
 
