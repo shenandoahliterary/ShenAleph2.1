@@ -34,11 +34,11 @@ $upload_path =  $uploads['baseurl'];
 	<p>&nbsp;</p>
 
 	<div class="row justify-content-center">
-		<div class="col-5 TOC-column-1">
+		<div class="col-4 TOC-column-1">
 			<h3>Fiction</h3>
 		</div>
 		
-		<div class="col-5">
+		<div class="col-4">
 
 			<?php
 				remove_all_filters('posts_orderby');
@@ -131,11 +131,11 @@ $upload_path =  $uploads['baseurl'];
 
 	<div class="row justify-content-center"> <!-- opens row for novel excerpt -->
 
-		<div class="col-5 TOC-column-1">
+		<div class="col-4 TOC-column-1">
 			<h3>Novel Excerpt</h3>
 		</div>
 
-		<div class="col-5">
+		<div class="col-4">
 			
 			<?php
 			remove_all_filters('posts_orderby');
