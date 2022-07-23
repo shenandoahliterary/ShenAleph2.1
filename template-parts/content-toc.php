@@ -128,7 +128,6 @@ $upload_path =  $uploads['baseurl'];
 	</div> <!-- closes row -->
 
 	<p>&nbsp;</p>
-	<p>&nbsp;</p>
 
 	<div class="row justify-content-center"> <!-- opens row for novel excerpt -->
 
