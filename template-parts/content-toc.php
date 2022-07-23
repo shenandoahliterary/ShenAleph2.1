@@ -371,8 +371,10 @@ $upload_path =  $uploads['baseurl'];
 
 <!--  Quote section -->
 <section class="container TOC-quote">
-	<div class="row">
-		<div class="col-md-11 offset-md-1 h-100">
+
+	<div class="row justify-content-center">
+
+		<div class="col-md-11 h-100">
 
 		<?php
 
