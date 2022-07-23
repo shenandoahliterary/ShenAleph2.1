@@ -1509,12 +1509,8 @@ font-size: 1.3rem;
 	background-color: var(--background);
 }
 
-.footer-above a{
+.images{
 	padding: var(--top-padding);
-}
-
-a:nth-last-child(1){
-	padding-top:-5px;
 }
 
 .wl-logo{
