@@ -357,6 +357,8 @@ $upload_path =  $uploads['baseurl'];
 
 </div> <!-- close row -->
 
+<p class="text-center p-section-break">▴&nbsp;▴&nbsp;▴</p>
+
 <p>&nbsp;</p>
 
 	<div class="row">
