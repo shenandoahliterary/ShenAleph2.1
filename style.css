@@ -982,7 +982,7 @@ section.workAuthorBio a {
 	top: 5vw;
 }
 
-@media (max-width: 740){
+@media screen and (max-width: 740){
 	.TOCsection h3 {
 		font-size: 36px;
 	}
