@@ -280,7 +280,7 @@ $upload_path =  $uploads['baseurl'];
 
 </div> <!-- close row -->
 
-<p>&nbsp;</p>
+<p class="text-center p-section-break">▴&nbsp;▴&nbsp;▴</p>
 
 <div class="row justify-content-center"> <!-- opens row for poetry -->
 
@@ -356,8 +356,6 @@ $upload_path =  $uploads['baseurl'];
 	</div> <!-- close 2nd column -->
 
 </div> <!-- close row -->
-
-<p class="text-center p-section-break">▴&nbsp;▴&nbsp;▴</p>
 
 <p>&nbsp;</p>
 
