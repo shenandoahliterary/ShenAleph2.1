@@ -33,7 +33,7 @@ $upload_path =  $uploads['baseurl'];
 	<p>&nbsp;</p>
 
 	<div class="row justify-content-center">
-		<div class="col-4 TOC-column-1">
+		<div class="col-4 TOC-column">
 			<h3>Fiction</h3>
 		</div>
 		
@@ -129,7 +129,7 @@ $upload_path =  $uploads['baseurl'];
 
 	<div class="row justify-content-center"> <!-- opens row for novel excerpt -->
 
-		<div class="col-4 TOC-column-1">
+		<div class="col-4 TOC-column">
 			<h3>Novel Excerpt</h3>
 		</div>
 
@@ -206,7 +206,7 @@ $upload_path =  $uploads['baseurl'];
 
 	<div class="row justify-content-center"> <!-- opens row for nonfiction -->
 
-		<div class="col-4 TOC-column-1">
+		<div class="col-4 TOC-column">
 			<h3>Nonfiction</h3>
 		</div>
 
@@ -283,7 +283,7 @@ $upload_path =  $uploads['baseurl'];
 
 	<div class="row justify-content-center"> <!-- opens row for poetry -->
 
-		<div class="col-4 TOC-column-1">
+		<div class="col-4 TOC-column">
 			<h3>Poetry</h3>
 		</div>
 
