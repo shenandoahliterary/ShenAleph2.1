@@ -76,14 +76,6 @@ html {
 /* Sections
 	 ========================================================================== */
 
-
-/**
- * Remove the margin in all browsers.
- */
-
-body {
-}
-
 /**
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
@@ -415,7 +407,7 @@ textarea {
 	font-family: minion-pro, serif;
 	font-weight: 400;
 	font-style: normal;
-	font-size: 16px;
+	font-size: 1.25vw;
 	font-size: 1rem;
 	line-height: 1.5;
 }
