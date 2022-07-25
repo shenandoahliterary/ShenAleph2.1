@@ -991,7 +991,8 @@ section.workAuthorBio a {
 }
 
 .TOC-column {
-	color: #8c8c88;
+	color: black;
+	opacity: 50%;
 }
 
 .TOCsection p {
