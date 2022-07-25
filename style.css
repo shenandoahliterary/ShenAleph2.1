@@ -990,8 +990,8 @@ section.workAuthorBio a {
 	top: 5vw;
 }
 
-.TOC-column-1 h3:not(:first-of-type) {
-	margin-top: 3.5rem;
+.TOC-column-1{
+	color: #8c8c88;
 }
 
 .TOCsection p {
