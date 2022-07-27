@@ -1254,6 +1254,10 @@ a:hover, a:active {
 	color: #df6348;
 } */
 
+.nav-bar-row{
+	background-color:white;
+}
+
 .nav-bar{
 	font-family: "Theinhardt";
     font-size: 20px;
