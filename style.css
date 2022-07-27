@@ -950,8 +950,10 @@ section.workAuthorBio a {
 .topbanner {
 	border-bottom: 2px solid #a37a75;
 }
+
 .topbanner-noborder {
 	border-bottom: none;
+	background-color: rgb(103,173,168);
 }
 
 
@@ -1259,6 +1261,7 @@ a:hover, a:active {
     color: rgb(223,99,71);
     justify-content: right;
 	text-transform: uppercase;
+	background-color: white;
 	
 }
 
