@@ -127,7 +127,7 @@ $upload_path =  $uploads['baseurl'];
 
 	<div class="row justify-content-start"> <!-- opens row for novel excerpt -->
 
-		<div class="TOC-column">
+		<div class="TOC-column flex-shrink-1">
 			<h3>Novel Excerpt</h3>
 		</div>
 	</div>
