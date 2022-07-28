@@ -153,13 +153,13 @@ $upload_path =  $uploads['baseurl'];
 					$this_author_id =get_the_author_meta('ID');
 					$authornames[$this_author_id] = $this_author;
 
-	//print statement of title and author just below worked but put each work and author separately
+		//print statement of title and author just below worked but put each work and author separately
 		?>
 
 		<?php
 				endwhile;
 
-	//below groups posts by author
+		//below groups posts by author
 
 			foreach ($authornames as $author_id=>$author_lastname) {
 					$args = array(
@@ -228,13 +228,13 @@ $upload_path =  $uploads['baseurl'];
 					$this_author_id =get_the_author_meta('ID');
 					$authornames[$this_author_id] = $this_author;
 
-	//print statement of title and author just below worked but put each work and author separately
+		//print statement of title and author just below worked but put each work and author separately
 		?>
 
 		<?php
 				endwhile;
 
-	//below groups posts by author
+		//below groups posts by author
 
 			foreach ($authornames as $author_id=>$author_lastname) {
 					$args = array(
@@ -304,13 +304,13 @@ $upload_path =  $uploads['baseurl'];
 					$this_author_id =get_the_author_meta('ID');
 					$authornames[$this_author_id] = $this_author;
 
-	//print statement of title and author just below worked but put each work and author separately
+		//print statement of title and author just below worked but put each work and author separately
 		?>
 
 		<?php
 				endwhile;
 
-	//below groups posts by author
+		//below groups posts by author
 
 			foreach ($authornames as $author_id=>$author_lastname) {
 					$args = array(
