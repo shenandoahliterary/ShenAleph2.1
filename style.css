@@ -620,11 +620,12 @@ body {
  }
 
 .p-section-break {
+	align-items: center;
 	margin-top: 1.5rem !important;
 	margin-bottom: 1.5rem !important;
 }
 
- p.text-center.p-section-break{
+ p.text-center.p-section-break + p + p {
 	 text-indent: 0;
 
  }
