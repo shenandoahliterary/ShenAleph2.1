@@ -127,7 +127,7 @@ $upload_path =  $uploads['baseurl'];
 
 	<div class="row justify-content-start"> <!-- opens row for novel excerpt -->
 
-		<div class="col-4 TOC-column">
+		<div class="TOC-column">
 			<h3>Novel Excerpt</h3>
 		</div>
 	</div>
@@ -202,7 +202,7 @@ $upload_path =  $uploads['baseurl'];
 
 	<div class="row justify-content-start"> <!-- opens row for nonfiction -->
 
-		<div class="col-4 TOC-column">
+		<div class="TOC-column">
 			<h3>Nonfiction</h3>
 		</div>
 	</div>
@@ -278,7 +278,7 @@ $upload_path =  $uploads['baseurl'];
 
 	<div class="row justify-content-start"> <!-- opens row for poetry -->
 
-		<div class="col-4 TOC-column">
+		<div class="TOC-column">
 			<h3>Poetry</h3>
 		</div>
 	</div>
@@ -360,8 +360,6 @@ $upload_path =  $uploads['baseurl'];
 		</div>
 
 	</section>
-
-	
 
 	<p>&nbsp;</p>
 
