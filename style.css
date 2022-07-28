@@ -620,7 +620,8 @@ body {
  }
 
 .p-section-break {
-	align-content: center;
+    display: table;
+    margin: 0 auto;
 	margin-top: 1.5rem !important;
 	margin-bottom: 1.5rem !important;
 }
