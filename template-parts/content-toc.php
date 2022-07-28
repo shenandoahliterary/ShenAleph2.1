@@ -123,7 +123,7 @@ $upload_path =  $uploads['baseurl'];
 
 	</div> <!-- closes row -->
 
-	<p class="text-center p-section-break">▴&nbsp;▴&nbsp;▴</p>
+	<span class="text-center p-section-break">▴&nbsp;▴&nbsp;▴</span>
 
 	<div class="row justify-content-start"> <!-- opens row for novel excerpt -->
 

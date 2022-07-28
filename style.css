@@ -624,7 +624,7 @@ body {
 	margin-bottom: 1.5rem !important;
 }
 
- p.text-center.p-section-break + p + p {
+ p.text-center.p-section-break{
 	 text-indent: 0;
 
  }
