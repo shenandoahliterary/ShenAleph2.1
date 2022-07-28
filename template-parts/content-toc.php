@@ -39,7 +39,6 @@ $upload_path =  $uploads['baseurl'];
 	</div>
 		
 	<div class="row">
-
 		<?php
 			remove_all_filters('posts_orderby');
 			$fiction_args = array(
