@@ -32,7 +32,7 @@ $upload_path =  $uploads['baseurl'];
 
 	<p>&nbsp;</p>
 
-	<div class="row text-start">
+	<div class="row justify-content-start">
 		<div class="TOC-column">
 			<h3>Fiction</h3>
 		</div>
