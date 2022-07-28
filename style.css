@@ -978,7 +978,7 @@ section.workAuthorBio a {
 
 .TOCsection h3 {
 	position: sticky;
-	text-align: right;
+	text-align: left;
 	font-size: 48px; 
 	text-transform: lowercase; 
 	top: 5vw;
