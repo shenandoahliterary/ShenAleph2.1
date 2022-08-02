@@ -364,42 +364,51 @@ $upload_path =  $uploads['baseurl'];
 	<p>&nbsp;</p>
 
 	<!--  Quote section -->
-	<section class="container TOC-quote" style="background-color:lightpink">
+	<section class="container TOC-quote">
 
 		<div class="row justify-content-center">
 
 			<div class="col-md-11">
 
-			<?php
-				$args = array(
-					'meta_key'			=> 'add-quote-to-toc',
-					'meta_value'		=> 'Yes',
-					'compare'			=> 'Like',
-					'post_type'			=> 'page',
-					'post_status'		=> 'publish',
-				);
+				<?php
+					$args = array(
+						'meta_key'			=> 'add-quote-to-toc',
+						'meta_value'		=> 'Yes',
+						'compare'			=> 'Like',
+						'post_type'			=> 'page',
+						'post_status'		=> 'publish',
+					);
 
-				$query = new WP_Query($args);
+					$query = new WP_Query($args);
 
-				if ($query->have_posts()) :
-					while($query->have_posts()) :
-						$query->the_post();
-			?>
+					if ($query->have_posts()) :
+						while($query->have_posts()) :
+							$query->the_post();
+				?>
 
-			<?php the_content() ?>
+				<?php the_content() ?>
 
-			<?php
-					endwhile;
-				else:
-			?>
+				<?php
+						endwhile;
+					else:
+				?>
 
-			Oops, there is no quote. 
+				Oops, there is no quote. 
 
-			<?php
-				endif;
+				<?php
+					endif;
 
-				wp_reset_postdata();
-			?>
+					wp_reset_postdata();
+				?>
+
+			</div> <!-- ends column -->
+
+		</div> <!-- ends row -->
+
+
+		<div class="row text-end">
+			<div class="col-md-11">
+				<?php the_author()?>
 
 			</div> <!-- ends column -->
 
