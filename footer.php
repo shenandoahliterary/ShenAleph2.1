@@ -15,7 +15,7 @@
 
 	<footer>
 		<section class="footer-above">
-			<div class="row">
+			<div class="row" style="background-color: lightpink">
 
 				<div class="col images">
 					<a href="https://www.facebook.com/ShenandoahLiterary"><i class="fab fa-facebook-square" style="padding-left:15px"></i></a> 
