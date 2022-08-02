@@ -33,7 +33,7 @@
 			</div>
 
 			<div class="row">
-				<img src="<?php echo get_stylesheet_directory_uri(); ?>/shen-header-new.svg" class="img-fluid" itemprop="logo">
+				<img src="<?php echo get_stylesheet_directory_uri(); ?>/shen-header-new.svg" style="z-index:1" class="img-fluid" itemprop="logo">
 			</div>
 		</section>
 
