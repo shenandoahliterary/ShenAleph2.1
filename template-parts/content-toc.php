@@ -407,8 +407,10 @@ $upload_path =  $uploads['baseurl'];
 
 
 		<div class="row text-end">
+
 			<div class="col-md-11">
-				<?php the_author()?>
+
+				<?php $author_lastname()?>
 
 			</div> <!-- ends column -->
 
