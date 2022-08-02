@@ -14,7 +14,8 @@
 	</div><!-- #content -->
 
 	<footer>
-		<section>
+
+		<section style="background-color: rgb(103,173,168)">
 			<div class="row footer-above">
 
 				<div class="col images">
