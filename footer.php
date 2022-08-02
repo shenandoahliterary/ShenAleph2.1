@@ -23,9 +23,9 @@
 			</div>
  
 			<div class="col text-end">
-				<a class="wl-logo" href = "https://www.wlu.edu/"><img src="https://shenandoahliterary.org/681/files/2018/12/wlu-w300.png"></a>
-				<br>
 				<a class="clmp" href = "https://www.clmp.org/"><img src="https://shenandoahliterary.org/681/files/2018/12/clmp.png" href = "https://www.clmp.org/"></a>
+				<br>
+				<a class="wl-logo" href = "https://www.wlu.edu/"><img src="https://shenandoahliterary.org/681/files/2018/12/wlu-w300.png"></a>
 			</div>
 
 		</div>
