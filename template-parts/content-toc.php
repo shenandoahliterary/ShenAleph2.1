@@ -327,8 +327,9 @@ $upload_path =  $uploads['baseurl'];
 				$i = 0;
 				//open paragraph for title(s)/author
 				echo "<p>";
-					while ($fiction_loop_single->have_posts()) : 				$fiction_loop_single->the_post();
-					//for each author, print title, title, author
+				while ($fiction_loop_single->have_posts()) : 				
+					$fiction_loop_single->the_post();
+				//for each author, print title, title, author
 		?>
 
 		<a href="<?php the_permalink(); ?>">
@@ -385,11 +386,22 @@ $upload_path =  $uploads['baseurl'];
 						while($query->have_posts()) :
 							$query->the_post();
 
-					$this_author= get_post_meta($post->ID, 'author_lastname', true);
-					$this_author_id =get_the_author_meta('ID');
-					$authornames[$this_author_id] = $this_author;
+						$this_author= get_post_meta($post->ID, 'author_lastname', true);
+						$this_author_id =get_the_author_meta('ID');
+						$authornames[$this_author_id] = $this_author;
+						'author' => $author_id,
 
 				?>
+
+			</div> <!-- ends column -->
+
+		</div> <!-- ends row -->
+
+		<div class="row text-end">
+
+			<div class="col-md-11">
+				
+				<?php the_author();?>
 
 				<?php the_content() ?>
 
@@ -405,17 +417,6 @@ $upload_path =  $uploads['baseurl'];
 
 					wp_reset_postdata();
 				?>
-
-			</div> <!-- ends column -->
-
-		</div> <!-- ends row -->
-
-
-		<div class="row text-end">
-
-			<div class="col-md-11">
-				
-				<?php the_author();?>
 
 			</div> <!-- ends column -->
 
