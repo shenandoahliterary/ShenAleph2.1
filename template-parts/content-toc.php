@@ -389,7 +389,7 @@ $upload_path =  $uploads['baseurl'];
 						$this_author= get_post_meta($post->ID, 'author_lastname', true);
 						$this_author_id =get_the_author_meta('ID');
 						$authornames[$this_author_id] = $this_author;
-						'author' => $author_id,
+						'author' => $author_id;
 
 				?>
 
