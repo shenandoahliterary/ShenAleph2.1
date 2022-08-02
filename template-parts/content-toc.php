@@ -299,10 +299,10 @@ $upload_path =  $uploads['baseurl'];
 		$fiction_loop = new WP_Query($fiction_args);
 			$authornames = array();
 
-				while ($fiction_loop->have_posts()) : $fiction_loop->the_post();
-					$this_author= get_post_meta($post->ID, 'author_lastname', true);
-					$this_author_id =get_the_author_meta('ID');
-					$authornames[$this_author_id] = $this_author;
+		while ($fiction_loop->have_posts()) : $fiction_loop->the_post();
+			$this_author= get_post_meta($post->ID, 'author_lastname', true);
+			$this_author_id =get_the_author_meta('ID');
+			$authornames[$this_author_id] = $this_author;
 
 		//print statement of title and author just below worked but put each work and author separately
 		?>
@@ -384,6 +384,11 @@ $upload_path =  $uploads['baseurl'];
 					if ($query->have_posts()) :
 						while($query->have_posts()) :
 							$query->the_post();
+
+					$this_author= get_post_meta($post->ID, 'author_lastname', true);
+					$this_author_id =get_the_author_meta('ID');
+					$authornames[$this_author_id] = $this_author;
+
 				?>
 
 				<?php the_content() ?>
