@@ -30,7 +30,7 @@
 
 		</div>
 
-		<img src="<?php echo get_stylesheet_directory_uri(); ?>/shen-header-new.svg" style="" class="img-fluid" alt="Shenandoah Volume 68, Number 1" itemprop="logo">
+		<img src="<?php echo get_stylesheet_directory_uri(); ?>/shen-header-new.svg" class="img-fluid" alt="Shenandoah Volume 68, Number 1" itemprop="logo">
 
 	</footer><!-- #colophon -->
 
