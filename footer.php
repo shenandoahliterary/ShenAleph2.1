@@ -26,9 +26,12 @@
 				<div class="col text-end">
 					<a class="clmp" style="margin-top:-10px" href = "https://www.clmp.org/"><img src="https://shenandoahliterary.org/681/files/2018/12/clmp.png" href = "https://www.clmp.org/"></a>
 					<br>
-					<a class="wl-logo" style="background-color: rgb(103,173,168); padding-top:5px" href = "https://www.wlu.edu/"><img src="https://shenandoahliterary.org/681/files/2018/12/wlu-w300.png"></a>
+					<a class="wl-logo" style="padding-top:5px" href = "https://www.wlu.edu/"><img src="https://shenandoahliterary.org/681/files/2018/12/wlu-w300.png"></a>
 				</div>
 
+			</div>
+
+			<div class="row">
 				<img src="<?php echo get_stylesheet_directory_uri(); ?>/shen-header-new.svg" class="img-fluid" alt="Shenandoah Volume 68, Number 1" itemprop="logo">
 			</div>
 		</section>
