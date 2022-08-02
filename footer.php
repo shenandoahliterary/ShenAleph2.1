@@ -15,13 +15,13 @@
 
 	<footer style="	background-color: rgb(103,173,168)">
 		<section class="footer-above">
-			<div class="row">
+			<!-- <div class="row"> -->
 
-				<div class="col images">
+				<!-- <div class="col images"> -->
 					<a href="https://www.facebook.com/ShenandoahLiterary"><i class="fab fa-facebook-square" style="padding-left:15px"></i></a> 
 					<a href="https://www.instagram.com/shenandoah_literary"><i class="fab fa-instagram"></i></a> 
 					<a href="https://twitter.com/ShenandoahWLU"><i class="fab fa-twitter"></i></a>   
-				</div>
+				<!-- </div> -->
 	
 				<div class="col text-end">
 					<a class="clmp" style="margin-top:-10px" href = "https://www.clmp.org/"><img src="https://shenandoahliterary.org/681/files/2018/12/clmp.png" href = "https://www.clmp.org/"></a>
