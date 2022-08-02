@@ -410,7 +410,7 @@ $upload_path =  $uploads['baseurl'];
 
 			<div class="col-md-11">
 				
-				<?php the_author()?>
+				<?php the_author();?>
 
 			</div> <!-- ends column -->
 
