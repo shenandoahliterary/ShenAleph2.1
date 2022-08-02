@@ -378,7 +378,6 @@ $upload_path =  $uploads['baseurl'];
 						'compare'			=> 'Like',
 						'post_type'			=> 'page',
 						'post_status'		=> 'publish',
-						'author' => $author_id,
 					);
 
 					$query = new WP_Query($args);
