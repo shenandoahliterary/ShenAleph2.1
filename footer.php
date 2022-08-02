@@ -14,7 +14,7 @@
 	</div><!-- #content -->
 
 	<footer style="	background-color: rgb(103,173,168)">
-		<section class="footer-above" style="background-color: rgb(103,173,168)">
+		<section class="footer-above">
 			<div class="row">
 
 				<div class="col images">
@@ -29,7 +29,7 @@
 					<a class="wl-logo" style="padding-top:5px" href = "https://www.wlu.edu/"><img src="https://shenandoahliterary.org/681/files/2018/12/wlu-w300.png"></a>
 				</div>
 
-				<img src="<?php echo get_stylesheet_directory_uri(); ?>/shen-header-new.svg" class="img-fluid" alt="Shenandoah Volume 68, Number 1" itemprop="logo">
+				<img style="background-color: rgb(103,173,168)" src="<?php echo get_stylesheet_directory_uri(); ?>/shen-header-new.svg" class="img-fluid" alt="Shenandoah Volume 68, Number 1" itemprop="logo">
 			
 		</section>
 
