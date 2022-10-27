@@ -31,7 +31,7 @@
 	<section class="topbanner-noborder container-fluid">
 
 		<div class="d-flex justify-content-center align-items-center" style="background-color: white">
-            <img style="width:10%; height:auto" src="<?php echo get_stylesheet_directory_uri(); ?>/Shenandoah-1600.jpg" alt="Shenandoah Logo" itemprop="logo">
+            <img style="width:1vw; height:auto" src="<?php echo get_stylesheet_directory_uri(); ?>/Shenandoah-1600.jpg" alt="Shenandoah Logo" itemprop="logo">
             <p id="typelogo">
 				<a href="https://shenandoahLiterary.org/721/" style="color: rgb(103,173,168)">Shenandoah</a>
 			</p>
