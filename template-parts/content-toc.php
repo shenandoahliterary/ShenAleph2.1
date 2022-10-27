@@ -43,7 +43,7 @@
         <div class="col-2">
             <div class="genreHeadings sticky-top">
                 <a href="#fiction">Fiction</a> <br>
-                <a style="transform: scale(.5, 1)" href="#novel-excerpt">Novel Excerpts</a> <br>
+                <a style="display: inline-block; transform: scaleX(.5)" href="#novel-excerpt">Novel Excerpts</a> <br>
                 <a href="#nonfiction">Nonfiction</a> <br>
                 <a href="#poetry">Poetry</a> <br>
                 <a href="#comics">Comics</a>
