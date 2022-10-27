@@ -419,7 +419,7 @@ textarea {
 */
 
 #bannerIcon {
-	width:2vw;
+	width:20vw;
 	height:auto;
 }
 
@@ -427,9 +427,9 @@ textarea {
 	border: 1px solid black;
 }
 
-.typelogo-container {
-	display: flex;
-}
+/*.typelogo-container {*/
+/*	display: flex;*/
+/*}*/
 
 .typelogo-column {
 	margin-right: -3.75rem;
