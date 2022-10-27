@@ -120,80 +120,80 @@
 
 	<span class="text-center p-section-break">▴&nbsp;▴&nbsp;▴</span>
 
-<!--    -->
-<!---->
-<!--	<div class="row justify-content-start"> <!-- opens row for novel excerpt -->-->
-<!---->
-<!--		<div class="TOC-column flex-shrink-1">-->
-<!--			<h3>Novel Excerpt</h3>-->
-<!--		</div>-->
-<!--	</div>-->
-<!---->
-<!--	<div class="row">-->
-<!--			-->
-<!--		--><?php
-//		remove_all_filters('posts_orderby');
-//		$novel_excerpt_args = array(
-//			'category_name' => 'novel-excerpt',
-//			'order' => 'ASC',
-//			'meta_key' => 'TOC_order',
-//			'orderby' => 'meta_value_num',
-//			'meta_type' => 'NUMERIC',
-//			'nopaging' => 'true',
-//
-//		);
-//		$novel_excerpt_loop = new WP_Query($novel_excerpt_args);
-//			$authornames = array();
-//
-//				while ($novel_excerpt_loop->have_posts()) : $novel_excerpt_loop->the_post();
-//					$this_author= get_post_meta($post->ID, 'author_lastname', true);
-//					$this_author_id =get_the_author_meta('ID');
-//					$authornames[$this_author_id] = $this_author;
-//
-//		//print statement of title and author just below worked but put each work and author separately
-//		?>
-<!---->
-<!--		--><?php
-//				endwhile;
-//
-//		//below groups posts by author
-//
-//			foreach ($authornames as $author_id=>$author_lastname) {
-//					$args = array(
-//				'category_name' => 'novel-excerpt',
-//				'author' => $author_id,
-//				'orderby' => 'date',
-//				'order' => 'asc',
-//				'nopaging' => 'true'
-//				);
-//		?>
-<!--		--><?php
-//				$novel_excerpt_loop_single = new WP_Query($args);
-//
-//				$i = 0;
-//				//open paragraph for title(s)/author
-//				echo "<p>";
-//					while ($novel_excerpt_loop_single->have_posts()) : 				$novel_excerpt_loop_single->the_post();
-//					//for each author, print title, title, author
-//		?>
-<!---->
-<!--		<a href="--><?php //the_permalink(); ?><!--">-->
-<!---->
-<!--		--><?php //the_title(); ?>
-<!--				-->
-<!--		</a><br />-->
-<!---->
-<!--		--><?php
-//				$i++;
-//				endwhile;
-//				//print author outside of the loop
-//		?>
-<!--				<span class="author_name">--><?php //the_author(); ?><!-- </span>-->
-<!--		--><?php
-//					wp_reset_postdata();
-//				}
-//		?>
-<!--	</div> <!-- close row -->-->
+
+
+	<div class="row justify-content-start"> <!-- opens row for novel excerpt -->
+
+		<div class="TOC-column flex-shrink-1">
+			<h3>Novel Excerpt</h3>
+		</div>
+	</div>
+
+	<div class="row">
+
+		<?php
+		remove_all_filters('posts_orderby');
+		$novel_excerpt_args = array(
+			'category_name' => 'novel-excerpt',
+			'order' => 'ASC',
+			'meta_key' => 'TOC_order',
+			'orderby' => 'meta_value_num',
+			'meta_type' => 'NUMERIC',
+			'nopaging' => 'true',
+
+		);
+		$novel_excerpt_loop = new WP_Query($novel_excerpt_args);
+			$authornames = array();
+
+				while ($novel_excerpt_loop->have_posts()) : $novel_excerpt_loop->the_post();
+					$this_author= get_post_meta($post->ID, 'author_lastname', true);
+					$this_author_id =get_the_author_meta('ID');
+					$authornames[$this_author_id] = $this_author;
+
+		//print statement of title and author just below worked but put each work and author separately
+		?>
+
+		<?php
+				endwhile;
+
+		//below groups posts by author
+
+			foreach ($authornames as $author_id=>$author_lastname) {
+					$args = array(
+				'category_name' => 'novel-excerpt',
+				'author' => $author_id,
+				'orderby' => 'date',
+				'order' => 'asc',
+				'nopaging' => 'true'
+				);
+		?>
+		<?php
+				$novel_excerpt_loop_single = new WP_Query($args);
+
+				$i = 0;
+				//open paragraph for title(s)/author
+				echo "<p>";
+					while ($novel_excerpt_loop_single->have_posts()) : 				$novel_excerpt_loop_single->the_post();
+					//for each author, print title, title, author
+		?>
+
+		<a href="<?php the_permalink(); ?>">
+
+		<?php the_title(); ?>
+
+		</a><br />
+
+		<?php
+				$i++;
+				endwhile;
+				//print author outside of the loop
+		?>
+				<span class="author_name"><?php the_author(); ?> </span>
+		<?php
+					wp_reset_postdata();
+				}
+		?>
+	</div> <!-- close row -->
 <!---->
 <!--	<span class="text-center p-section-break">▴&nbsp;▴&nbsp;▴</span>-->
 <!---->
