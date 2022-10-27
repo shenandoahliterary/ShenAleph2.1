@@ -30,8 +30,8 @@
 
 	<section class="topbanner-noborder container-fluid typelogo-container">
 
-		<div class="row">
-            <img style="width:100%;height:auto" src="<?php echo get_stylesheet_directory_uri(); ?>/favicon.jpg" alt="Shenandoah Logo" itemprop="logo">
+		<div class="row" style="justify-content: center">
+            <img id="bannerIcon" src="<?php echo get_stylesheet_directory_uri(); ?>/favicon.jpg" alt="Shenandoah Logo" itemprop="logo">
 			<p id="typelogo">
 				<a href="https://shenandoahLiterary.org/721/">Shenandoah</a>
 			</p>
