@@ -30,20 +30,12 @@
 
 	<section class="topbanner-noborder container-fluid typelogo-container">
 
-		<div class="row">
+		<div class="row" style="height:2em">
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/favicon.jpg" alt="Shenandoah Logo" itemprop="logo">
 			<p id="typelogo">
 				<a href="https://shenandoahLiterary.org/721/">Shenandoah</a>
 			</p>
 		</div>
-
-<!--		<div class="row">-->
-<!--			<a href="https://shenandoahliterary.org/721/" rel="home" itemprop="url">-->
-<!--<!--				<img src="-->--><?php ////echo get_stylesheet_directory_uri(); ?><!--<!--/shen-header-new.svg" style="z-index:1" class="img-fluid" alt="Shenandoah Volume 68, Number 1" itemprop="logo">-->-->
-<!---->
-<!--				<!-- <img src="https://shenandoahliterary.org/681/files/2018/12/Shenandoah-1600.jpg" class="img-fluid" alt="Shenandoah Volume 68, Number 1" itemprop="logo"> -->-->
-<!--			</a>-->
-<!--		</div>-->
 
 		<div class="row nav-bar-row" style="padding-top:15px; background-color:rgb(103,173,168)">
 			<div class="col-md-6">
