@@ -987,7 +987,7 @@ section.workAuthorBio a {
 	font-weight: 550;
 	font-size: 3.25vw;
 	color: #a37a75;
-	line-height: 3.5vw;
+	/*line-height: 3.5vw;*/
 	text-transform: uppercase;
 	top: 10vw;
 }
