@@ -986,10 +986,13 @@ section.workAuthorBio a {
 	font-family: "Theinhardt";
 	font-weight: 550;
 	font-size: 3.25vw;
-	color: rgb(38,34,97);
 	line-height: 3.3vw;
 	text-transform: uppercase;
 	top: 10vw;
+}
+
+.genreHeadings a:visited, .genreHeadings a:link{
+	color: rgb(38,34,97);
 }
 
 .volumeIssueImage {
