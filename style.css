@@ -982,6 +982,14 @@ section.workAuthorBio a {
 	padding: 0 0 0 2vw;
 }
 
+.volumeIssueImage {
+	color: white;
+	font-family: "Theinhardt";
+	font-weight: 550;
+	font-size: 50vw;
+	text-align: center;
+}
+
 .TOCcontent {
 	background-color: white;
 }
