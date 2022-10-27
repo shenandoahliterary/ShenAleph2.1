@@ -39,7 +39,7 @@
 			</p>
 		</div>
 
-		<div class="row nav-bar-row" style="margin-top:1vw">
+		<div class="row nav-bar-row" style="margin-top:.5vw">
 			<div class="col-md-6">
 				<div class="volumeIssueBanner">
 					Volume 72, Number 1 &middot; Fall 2022
