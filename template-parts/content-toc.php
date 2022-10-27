@@ -34,7 +34,7 @@
 
 	<div class="row justify-content-center" style="margin-top:3vw; margin-bottom:3vw">
 		<div class="col-md-8 single-space-paragraphs">
-			<p style="4rem"><a href="https://shenandoahliterary.org/712/editors-note/">Editor&rsquo;s Note</a><br /><span class="author_name">[Editor Name]</span></p>
+			<p style="font-size:4rem"><a href="https://shenandoahliterary.org/712/editors-note/">Editor&rsquo;s Note</a><br /><span class="author_name">[Editor Name]</span></p>
 		</div>
 	</div>
 
