@@ -40,8 +40,8 @@
 
     <div class="row">
 
-        <div class="col-2 sticky-top">
-            <div class="genreHeadings">
+        <div class="col-2">
+            <div class="genreHeadings sticky-top">
                 Fiction <br>
                 Novel Excerpts <br>
                 Nonfiction <br>
