@@ -32,7 +32,7 @@
 
 		<div class="row d-flex justify-content-center">
             <span id="bannerIcon">
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/Shenandoah-1600.jpg" alt="Shenandoah Logo" itemprop="logo">
+                <img style="width: 50%; height: auto" src="<?php echo get_stylesheet_directory_uri(); ?>/Shenandoah-1600.jpg" alt="Shenandoah Logo" itemprop="logo">
 			</span>
             <p id="typelogo">
 				<a href="https://shenandoahLiterary.org/721/">Shenandoah</a>
