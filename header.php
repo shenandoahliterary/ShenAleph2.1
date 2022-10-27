@@ -28,11 +28,11 @@
 <!-- start Bootstrap container -->
 <div id="page" class="site">
 
-	<section class="topbanner-noborder container-fluid typelogo-container">
+	<section class="topbanner-noborder container-fluid">
 
 		<div class="d-flex justify-content-center align-items-center" style="background-color: white">
             <img style="width:10%; height:auto" src="<?php echo get_stylesheet_directory_uri(); ?>/Shenandoah-1600.jpg" alt="Shenandoah Logo" itemprop="logo">
-            <p id="typelogo">
+            <p id="typelogo" style="color: rgb(103,173,168)">
 				<a href="https://shenandoahLiterary.org/721/">Shenandoah</a>
 			</p>
 		</div>

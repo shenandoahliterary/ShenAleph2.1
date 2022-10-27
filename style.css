@@ -427,14 +427,10 @@ textarea {
 	border: 1px solid black;
 }
 
-/*.typelogo-container {*/
-/*	display: flex;*/
+/*.typelogo-column {*/
+/*	margin-right: -3.75rem;*/
+/*	padding-left: 4rem;*/
 /*}*/
-
-.typelogo-column {
-	margin-right: -3.75rem;
-	padding-left: 4rem;
-}
 
 #typelogo {
 	font-family: "Theinhardt";
