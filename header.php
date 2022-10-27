@@ -26,7 +26,7 @@
 
 <body <?php body_class(); ?>>
 <!-- start Bootstrap container -->
-<div id="page" class="site" style="background-color:rgb(103,173,168)">
+<div id="page" class="site">
 
 	<section class="topbanner-noborder container-fluid" id="typelogo-container">
 
