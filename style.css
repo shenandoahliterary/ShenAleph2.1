@@ -978,6 +978,10 @@ section.workAuthorBio a {
 	padding: 0 0 0 2vw;
 }
 
+.TOCsection {
+	background-color: white;
+}
+
 .TOCsection h3 {
 	position: sticky;
 	margin-left: 150px;
