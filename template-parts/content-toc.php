@@ -30,6 +30,7 @@
 		</div>
 	</div>
 
+    <span class="TOCcontent">
 	<div class="row justify-content-start">
 		<div class="TOC-column">
 			<h3>Fiction</h3>
@@ -117,6 +118,7 @@
 		?>
 
 	</div> <!-- closes row -->
+    </span>
 
 	<span class="text-center p-section-break">▴&nbsp;▴&nbsp;▴</span>
 
