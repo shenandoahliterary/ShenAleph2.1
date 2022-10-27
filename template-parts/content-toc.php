@@ -17,8 +17,9 @@
 
 <!--            </div>-->
         <div class="col-8">
-            <img class="d-flex align-items-center" src="<?php echo get_stylesheet_directory_uri(); ?>/garden.jpeg" alt="" itemprop="">
-
+            <span>
+                <img class="d-flex align-items-center" src="<?php echo get_stylesheet_directory_uri(); ?>/garden.jpeg" alt="" itemprop="">
+            </span>
             <p class="d-flex justify-content-center"><em>[artwork title]</em>,&nbsp;&nbsp; <a href="">[artist name]</a></p>
 
         </div>
