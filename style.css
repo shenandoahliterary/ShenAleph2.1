@@ -442,12 +442,12 @@ textarea {
 	font-size: 12vw;
 	text-transform: uppercase;
 	margin-bottom: -5vw;
-	color: rgb(103,173,168);
-}
+
 
 #typelogo a:link, #typelogo a:visited {
 	text-decoration: none;
 	color: #F7F4EB;
+	color: rgb(103,173,168);
 }
 
 /* 181818 */
