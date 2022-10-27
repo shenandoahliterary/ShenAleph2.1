@@ -5,21 +5,21 @@
  */
 ?>
 <section class="container">
-<div class="row cover-row">
-	<?php
-        $uploads = wp_upload_dir();
-        $upload_path =  $uploads['baseurl'];
-/* need to set image in admin dashboard */
-	?>
-	<div class="col-md-12">
-		<div class="text-center">
-            <img class="" src="<?php echo $upload_path ?>/2022/06/572x700.jpg">
-		</div>
-        <p class="d-flex justify-content-center"><em>[artwork title]</em>,&nbsp;&nbsp; <a href="">[artist name]</a></p>
-	</div>
-</div>
+    <div class="row cover-row">
+	    <?php
+            $uploads = wp_upload_dir();
+            $upload_path =  $uploads['baseurl'];
+            /* need to set image in admin dashboard */
+	    ?>
+	    <div class="col-md-12">
+		    <div class="text-center">
+                <img class="" src="<?php echo $upload_path ?>/2022/06/572x700.jpg">
+		    </div>
 
+            <p class="d-flex justify-content-center"><em>[artwork title]</em>,&nbsp;&nbsp; <a href="">[artist name]</a></p>
 
+        </div>
+    </div>
 </section>
 
 <section class="container TOCsection">
