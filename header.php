@@ -31,6 +31,7 @@
 	<section class="topbanner-noborder container-fluid" id="typelogo-container">
 
 		<div class="row">
+            <img src="favicon.jpg" class="img-fluid" alt="Shenandoah Logo" itemprop="logo">
 			<p id="typelogo">
 				<a href="https://shenandoahLiterary.org/721/">Shenandoah</a>
 			</p>
