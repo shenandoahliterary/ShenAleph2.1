@@ -30,7 +30,7 @@
 
 	<section class="topbanner-noborder container-fluid typelogo-container">
 
-		<div class="row" style="height:2em">
+		<div class="row">
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/favicon.jpg" alt="Shenandoah Logo" itemprop="logo">
 			<p id="typelogo">
 				<a href="https://shenandoahLiterary.org/721/">Shenandoah</a>
