@@ -22,7 +22,7 @@
         </div>
 
         <div class="col-4">
-            <div class="volumeIssueBanner">
+            <div class="volumeIssueImage">
                 Volume 72, Number 1 &middot; Fall 2022
             </div>
         </div>
