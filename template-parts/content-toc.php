@@ -16,8 +16,8 @@
 <!--                <img class="" src="--><?php //echo $upload_path ?><!--/2022/06/572x700.jpg">-->
 
 <!--            </div>-->
-        <div class="col-8 d-flex align-items-center">
-            <img style="" src="<?php echo get_stylesheet_directory_uri(); ?>/garden.jpeg" alt="" itemprop="">
+        <div class="col-8">
+            <img class="d-flex align-items-center" src="<?php echo get_stylesheet_directory_uri(); ?>/garden.jpeg" alt="" itemprop="">
 
             <p class="d-flex justify-content-center"><em>[artwork title]</em>,&nbsp;&nbsp; <a href="">[artist name]</a></p>
 
