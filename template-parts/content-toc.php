@@ -4,8 +4,8 @@
  *
  */
 ?>
-<section class="container">
-    <div class="row cover-row" style="background-color: rgb(104,125,145)">
+<section class="container" style="background-color: rgb(104,125,145)">
+    <div class="row cover-row" >
 	    <?php
             $uploads = wp_upload_dir();
             $upload_path =  $uploads['baseurl'];
