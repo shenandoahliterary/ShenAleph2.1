@@ -13,9 +13,9 @@
 	?>
 	<div class="col-md-12">
 		<div class="text-center">
-            <img class="" src="<?php echo $upload_path ?>/2022/06/572x700.jpg">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/garden.jpg" alt="" itemprop="">
 		</div>
-        <p class="d-flex justify-content-center"><em>[artwork title]</em>,&nbsp;&nbsp; <a href="">[artist name]</a></p>
+        <p class="d-flex justify-content-center"><em>Garden</em>,&nbsp;&nbsp; <a href="">Julie's Macbook</a></p>
 	</div>
 </div>
 
