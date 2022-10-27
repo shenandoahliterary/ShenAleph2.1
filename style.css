@@ -987,7 +987,9 @@ section.workAuthorBio a {
 	font-weight: 550;
 	font-size: 4vw;
 	color: #a37a75;
-	line-height: 4.15vw;
+	line-height: 4.3vw;
+	text-transform: uppercase;
+	padding-top: 2vw;
 }
 
 .volumeIssueImage {
