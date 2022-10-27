@@ -30,7 +30,7 @@
     </div>
 </section>
 
-<section class="container TOCsection" style="margin-top:3vw">
+<section class="container TOCsection" style="margin-top:3vw; margin-bottom: -3vw">
 
 	<div class="row justify-content-center">
 		<div class="col-md-8 single-space-paragraphs">
