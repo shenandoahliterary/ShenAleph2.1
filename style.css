@@ -441,7 +441,7 @@ textarea {
 }
 
 
-#typelogo a:link, a:visited {
+#typelogo a:link, #typelogo a:visited {
 	text-decoration: none;
 	color: rgb(103,173,168);
 }
