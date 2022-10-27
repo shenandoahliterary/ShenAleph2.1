@@ -5,7 +5,7 @@
  */
 ?>
 <section class="container" style="background-color: rgb(104,125,145)">
-    <div class="row cover-row d-flex align-items-center">
+    <div class="row cover-row">
 	    <?php
             $uploads = wp_upload_dir();
             $upload_path =  $uploads['baseurl'];
@@ -16,7 +16,7 @@
 <!--                <img class="" src="--><?php //echo $upload_path ?><!--/2022/06/572x700.jpg">-->
 
 <!--            </div>-->
-        <div class="col-8">
+        <div class="col-8 d-flex align-items-center">
             <img style="" src="<?php echo get_stylesheet_directory_uri(); ?>/garden.jpeg" alt="" itemprop="">
 
             <p class="d-flex justify-content-center"><em>[artwork title]</em>,&nbsp;&nbsp; <a href="">[artist name]</a></p>
