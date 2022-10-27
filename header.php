@@ -30,7 +30,7 @@
 
 	<section class="topbanner-noborder container-fluid">
 
-		<div class="d-flex justify-content-center align-items-center" style="background-color: white">
+		<div class="d-flex justify-content-center align-items-center" style="background-color: white" style="margin-bottom:-5vw">
             <p>
                 <img style="width:8vw; height:auto; padding-top:4vw; padding-right: 1.25vw" src="<?php echo get_stylesheet_directory_uri(); ?>/Shenandoah-1600.jpg" alt="Shenandoah Logo" itemprop="logo">
             </p>
