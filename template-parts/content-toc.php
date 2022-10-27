@@ -42,10 +42,10 @@
 
         <div class="col-2 sticky-top">
             <div class="genreHeadings">
-                Fiction
-                Novel Excerpts
-                Nonfiction
-                Poetry
+                Fiction <br>
+                Novel Excerpts <br>
+                Nonfiction <br>
+                Poetry <br>
                 Comics
             </div>
         </div>
