@@ -44,7 +44,7 @@
 			</a>
 		</div>
 
-		<div class="row nav-bar-row" style="padding-top:15px">
+		<div class="row nav-bar-row" style="padding-top:15px; background-color:rgb(103,173,168)">
 			<div class="col-md-6">
 				<div class="volumeIssueBanner">
 					Volume 72, Number 1 &middot; Fall 2022
