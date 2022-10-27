@@ -38,419 +38,428 @@
 		</div>
 	</div>
 
+    <div class="col-4">
+        <div class="genreHeadings">
+            TEXT
+        </div>
+    </div>
     <span class="TOCcontent">
-	<div class="row justify-content-start">
-		<div class="TOC-column">
-			<h3>Fiction</h3>
-		</div>
-	</div>
-		
-	<div class="row">
-		<?php
-			remove_all_filters('posts_orderby');
-			$fiction_args = array(
-				'category_name' => 'fiction',
-				'order' => 'ASC',
-				'meta_key' => 'TOC_order',
-				'orderby' => 'meta_value_num',
-				'meta_type' => 'NUMERIC',
-				'nopaging' => 'true',
-			);
-			$fiction_loop = new WP_Query($fiction_args);
-			$authornames = array();
 
-			while ($fiction_loop->have_posts()) : $fiction_loop->the_post();
-				$this_author= get_post_meta($post->ID, 'author_lastname', true);
-				$this_author_id =get_the_author_meta('ID');
-				$authornames[$this_author_id] = $this_author;
+    <div class="col-8">
+        <div class="row justify-content-start">
+            <div class="TOC-column">
+                <h3>Fiction</h3>
+            </div>
+        </div>
 
-			//print statement of title and author just below worked but put each work and author separately
+        <div class="row">
+            <a id="fiction">
+            <?php
+                remove_all_filters('posts_orderby');
+                $fiction_args = array(
+                    'category_name' => 'fiction',
+                    'order' => 'ASC',
+                    'meta_key' => 'TOC_order',
+                    'orderby' => 'meta_value_num',
+                    'meta_type' => 'NUMERIC',
+                    'nopaging' => 'true',
+                );
+                $fiction_loop = new WP_Query($fiction_args);
+                $authornames = array();
 
-			endwhile;
+                while ($fiction_loop->have_posts()) : $fiction_loop->the_post();
+                    $this_author= get_post_meta($post->ID, 'author_lastname', true);
+                    $this_author_id =get_the_author_meta('ID');
+                    $authornames[$this_author_id] = $this_author;
 
-			//group posts by author
+                //print statement of title and author just below worked but put each work and author separately
 
-			foreach ($authornames as $author_id=>$author_lastname) {
-				$args = array(
-					'category_name' => 'fiction',
-					'author' => $author_id,
-					'orderby' => 'date',
-					'order' => 'asc',
-					'nopaging' => 'true'
-				);
-	
-				//start WP loop
-				$fiction_loop_single = new WP_Query($args);
+                endwhile;
 
-				$i = 0;
+                //group posts by author
 
-				//open paragraph for title(s)/author
-				echo "<p>";
-				while ($fiction_loop_single->have_posts()) : 				
-					$fiction_loop_single->the_post();
-					//for each author, print title,  author
-		
-		?>
-         <a href="<?php the_permalink(); ?>">
+                foreach ($authornames as $author_id=>$author_lastname) {
+                    $args = array(
+                        'category_name' => 'fiction',
+                        'author' => $author_id,
+                        'orderby' => 'date',
+                        'order' => 'asc',
+                        'nopaging' => 'true'
+                    );
 
-		<?php the_title(); ?>
-            </a><br/>
-        <?php
-				//check for author's note
+                    //start WP loop
+                    $fiction_loop_single = new WP_Query($args);
 
-				$custom_fields = get_post_custom();
-				$has_author_note = $custom_fields['has_author_note'];
+                    $i = 0;
 
-				$i++;
-					
-				endwhile;
-				$custom_fields_test = get_post_custom();
-				$has_author_note_test = $custom_fields_test['has_author_note'];
+                    //open paragraph for title(s)/author
+                    echo "<p>";
+                    while ($fiction_loop_single->have_posts()) :
+                        $fiction_loop_single->the_post();
+                        //for each author, print title,  author
 
-				if (! empty($has_author_note)) {
-					$author_note_url = site_url();
+            ?>
+             <a href="<?php the_permalink(); ?>">
 
-					//echo "test: $has_author_note_test[0]";
-					echo <<<URLLINK
+            <?php the_title(); ?>
+                </a><br/>
+            <?php
+                    //check for author's note
 
-					<a href="$author_note_url/$has_author_note[0]/">Author's Note</a><br />
-					URLLINK;
-				}
-		?>
+                    $custom_fields = get_post_custom();
+                    $has_author_note = $custom_fields['has_author_note'];
 
-        <span class="author_name"><?php the_author(); ?> </span>
-				
-		<?php
-					wp_reset_postdata();
-			}
-		?>
+                    $i++;
 
-	</div> <!-- closes row -->
-    </span>
+                    endwhile;
+                    $custom_fields_test = get_post_custom();
+                    $has_author_note_test = $custom_fields_test['has_author_note'];
 
-	<span class="text-center p-section-break">▴&nbsp;▴&nbsp;▴</span>
+                    if (! empty($has_author_note)) {
+                        $author_note_url = site_url();
+
+                        //echo "test: $has_author_note_test[0]";
+                        echo <<<URLLINK
+    
+                        <a href="$author_note_url/$has_author_note[0]/">Author's Note</a><br />
+                        URLLINK;
+                    }
+            ?>
+
+            <span class="author_name"><?php the_author(); ?> </span>
+
+            <?php
+                        wp_reset_postdata();
+                }
+            ?>
+            </a>
+        </div> <!-- closes row -->
+        </span>
+
+        <span class="text-center p-section-break">▴&nbsp;▴&nbsp;▴</span>
 
 
 
-	<div class="row justify-content-start"> <!-- opens row for novel excerpt -->
+        <div class="row justify-content-start"> <!-- opens row for novel excerpt -->
 
-		<div class="TOC-column flex-shrink-1">
-			<h3>Novel Excerpt</h3>
-		</div>
-	</div>
+            <div class="TOC-column flex-shrink-1">
+                <h3>Novel Excerpt</h3>
+            </div>
+        </div>
 
-	<div class="row">
+        <div class="row">
 
-		<?php
-		remove_all_filters('posts_orderby');
-		$novel_excerpt_args = array(
-			'category_name' => 'novel-excerpt',
-			'order' => 'ASC',
-			'meta_key' => 'TOC_order',
-			'orderby' => 'meta_value_num',
-			'meta_type' => 'NUMERIC',
-			'nopaging' => 'true',
+            <?php
+            remove_all_filters('posts_orderby');
+            $novel_excerpt_args = array(
+                'category_name' => 'novel-excerpt',
+                'order' => 'ASC',
+                'meta_key' => 'TOC_order',
+                'orderby' => 'meta_value_num',
+                'meta_type' => 'NUMERIC',
+                'nopaging' => 'true',
 
-		);
-		$novel_excerpt_loop = new WP_Query($novel_excerpt_args);
-			$authornames = array();
+            );
+            $novel_excerpt_loop = new WP_Query($novel_excerpt_args);
+                $authornames = array();
 
-				while ($novel_excerpt_loop->have_posts()) : $novel_excerpt_loop->the_post();
-					$this_author= get_post_meta($post->ID, 'author_lastname', true);
-					$this_author_id =get_the_author_meta('ID');
-					$authornames[$this_author_id] = $this_author;
+                    while ($novel_excerpt_loop->have_posts()) : $novel_excerpt_loop->the_post();
+                        $this_author= get_post_meta($post->ID, 'author_lastname', true);
+                        $this_author_id =get_the_author_meta('ID');
+                        $authornames[$this_author_id] = $this_author;
 
-		//print statement of title and author just below worked but put each work and author separately
-		?>
+            //print statement of title and author just below worked but put each work and author separately
+            ?>
 
-		<?php
-				endwhile;
+            <?php
+                    endwhile;
 
-		//below groups posts by author
+            //below groups posts by author
 
-			foreach ($authornames as $author_id=>$author_lastname) {
-					$args = array(
-				'category_name' => 'novel-excerpt',
-				'author' => $author_id,
-				'orderby' => 'date',
-				'order' => 'asc',
-				'nopaging' => 'true'
-				);
-		?>
-		<?php
-				$novel_excerpt_loop_single = new WP_Query($args);
+                foreach ($authornames as $author_id=>$author_lastname) {
+                        $args = array(
+                    'category_name' => 'novel-excerpt',
+                    'author' => $author_id,
+                    'orderby' => 'date',
+                    'order' => 'asc',
+                    'nopaging' => 'true'
+                    );
+            ?>
+            <?php
+                    $novel_excerpt_loop_single = new WP_Query($args);
 
-				$i = 0;
-				//open paragraph for title(s)/author
-				echo "<p>";
-					while ($novel_excerpt_loop_single->have_posts()) : 				$novel_excerpt_loop_single->the_post();
-					//for each author, print title, title, author
-		?>
+                    $i = 0;
+                    //open paragraph for title(s)/author
+                    echo "<p>";
+                        while ($novel_excerpt_loop_single->have_posts()) : 				$novel_excerpt_loop_single->the_post();
+                        //for each author, print title, title, author
+            ?>
 
-		<a href="<?php the_permalink(); ?>">
+            <a href="<?php the_permalink(); ?>">
 
-		<?php the_title(); ?>
+            <?php the_title(); ?>
 
-		</a><br />
+            </a><br />
 
-		<?php
-				$i++;
-				endwhile;
-				//print author outside of the loop
-		?>
-				<span class="author_name"><?php the_author(); ?> </span>
-		<?php
-					wp_reset_postdata();
-				}
-		?>
-	</div> <!-- close row -->
-<!---->
-<!--	<span class="text-center p-section-break">▴&nbsp;▴&nbsp;▴</span>-->
-<!---->
-<!--	<div class="row justify-content-start"> <!-- opens row for nonfiction -->-->
-<!---->
-<!--		<div class="TOC-column">-->
-<!--			<h3>Nonfiction</h3>-->
-<!--		</div>-->
-<!--	</div> <!-- close row -->-->
-<!--		-->
-<!--	<div class="row">-->
-<!--			-->
-<!--		--><?php
-//		remove_all_filters('posts_orderby');
-//		$nonfiction_args = array(
-//			'category_name' => 'nonfiction',
-//			'order' => 'ASC',
-//			'meta_key' => 'TOC_order',
-//			'orderby' => 'meta_value_num',
-//			'meta_type' => 'NUMERIC',
-//			'nopaging' => 'true',
-//
-//		);
-//		$nonfiction_loop = new WP_Query($nonfiction_args);
-//			$authornames = array();
-//
-//				while ($nonfiction_loop->have_posts()) : $nonfiction_loop->the_post();
-//					$this_author= get_post_meta($post->ID, 'author_lastname', true);
-//					$this_author_id =get_the_author_meta('ID');
-//					$authornames[$this_author_id] = $this_author;
-//
-//		//print statement of title and author just below worked but put each work and author separately
-//		?>
-<!---->
-<!--		--><?php
-//				endwhile;
-//
-//		//below groups posts by author
-//
-//			foreach ($authornames as $author_id=>$author_lastname) {
-//					$args = array(
-//				'category_name' => 'nonfiction',
-//				'author' => $author_id,
-//				'orderby' => 'date',
-//				'order' => 'asc',
-//				'nopaging' => 'true'
-//				);
-//		?>
-<!--		--><?php
-//				$nonfiction_loop_single = new WP_Query($args);
-//
-//				$i = 0;
-//				//open paragraph for title(s)/author
-//				echo "<p>";
-//					while ($nonfiction_loop_single->have_posts()) :
-//					    $nonfiction_loop_single->the_post();
-//					//for each author, print title, title, author
-//		?>
-<!---->
-<!--		<a href="--><?php //the_permalink(); ?><!--">-->
-<!---->
-<!--		--><?php //the_title(); ?>
-<!--				-->
-<!--		</a><br />-->
-<!---->
-<!--		--><?php
-//				$i++;
-//				endwhile;
-//				//print author outside of the loop
-//		?>
-<!--				<span class="author_name">--><?php //the_author(); ?><!-- </span>-->
-<!--		--><?php
-//				wp_reset_postdata();
-//			}
-//		?>
-<!---->
-<!--	</div> <!-- close row -->-->
-<!---->
-<!--	<span class="text-center p-section-break">▴&nbsp;▴&nbsp;▴</span>-->
-<!---->
-<!--	<div class="row justify-content-start"> <!-- opens row for poetry -->-->
-<!---->
-<!--		<div class="TOC-column">-->
-<!--			<h3>Poetry</h3>-->
-<!--		</div>-->
-<!--	</div>-->
-<!---->
-<!--	<div class="row">-->
-<!--			-->
-<!--		--><?php
-//		remove_all_filters('posts_orderby');
-//		$poetry_args = array(
-//			'category_name' => 'poetry',
-//			'order' => 'ASC',
-//			'meta_key' => 'TOC_order',
-//			'orderby' => 'meta_value_num',
-//			'meta_type' => 'NUMERIC',
-//			'nopaging' => 'true',
-//
-//		);
-//		$poetry_loop = new WP_Query($poetry_args);
-//			$authornames = array();
-//
-//		while ($poetry_loop->have_posts()) : $poetry_loop->the_post();
-//			$this_author= get_post_meta($post->ID, 'author_lastname', true);
-//			$this_author_id =get_the_author_meta('ID');
-//			$authornames[$this_author_id] = $this_author;
-//
-//		//print statement of title and author just below worked but put each work and author separately
-//		?>
-<!---->
-<!--		--><?php
-//				endwhile;
-//
-//		//below groups posts by author
-//
-//			foreach ($authornames as $author_id=>$author_lastname) {
-//					$args = array(
-//				'category_name' => 'poetry',
-//				'author' => $author_id,
-//				'orderby' => 'date',
-//				'order' => 'asc',
-//				'nopaging' => 'true'
-//				);
-//		?>
-<!--		--><?php
-//				$poetry_loop_single = new WP_Query($args);
-//
-//				$i = 0;
-//				//open paragraph for title(s)/author
-//				echo "<p>";
-//				while ($poetry_loop_single->have_posts()) :
-//					$poetry_loop_single->the_post();
-//				//for each author, print title, title, author
-//		?>
-<!---->
-<!--		<a href="--><?php //the_permalink(); ?><!--">-->
-<!---->
-<!--		--><?php //the_title(); ?>
-<!--				-->
-<!--		</a><br />-->
-<!---->
-<!--		--><?php
-//				$i++;
-//				endwhile;
-//				//print author outside of the loop
-//		?>
-<!--				<span class="author_name">--><?php //the_author(); ?><!-- </span>-->
-<!--		--><?php
-//					wp_reset_postdata();
-//				}
-//		?>
-<!---->
-<!--	</div> <!-- close row -->-->
-<!---->
-<!--	<div class="row justify-content-start"> <!-- open row for comics -->-->
-<!--    		<div class="TOC-column">-->
-<!--    			<h3>Comics</h3>-->
-<!--    		</div>-->
-<!--    	</div>-->
-<!---->
-<!--    	<div class="row">-->
-<!--    		--><?php
-//    			remove_all_filters('posts_orderby');
-//    			$comics_args = array(
-//    				'category_name' => 'comics',
-//    				'order' => 'ASC',
-//    				'meta_key' => 'TOC_order',
-//    				'orderby' => 'meta_value_num',
-//    				'meta_type' => 'NUMERIC',
-//    				'nopaging' => 'true',
-//    			);
-//    			$comics_loop = new WP_Query($comics_args);
-//    			$authornames = array();
-//
-//    			while ($comics_loop->have_posts()) : $comics_loop->the_post();
-//    				$this_author= get_post_meta($post->ID, 'author_lastname', true);
-//    				$this_author_id =get_the_author_meta('ID');
-//    				$authornames[$this_author_id] = $this_author;
-//
-//    			//print statement of title and author just below worked but put each work and author separately
-//
-//    			endwhile;
-//
-//    			//group posts by author
-//
-//    			foreach ($authornames as $author_id=>$author_lastname) {
-//    				$args = array(
-//    					'category_name' => 'comics',
-//    					'author' => $author_id,
-//    					'orderby' => 'date',
-//    					'order' => 'asc',
-//    					'nopaging' => 'true'
-//    				);
-//
-//    				//start WP loop
-//    				$comics_loop_single = new WP_Query($args);
-//
-//    				$i = 0;
-//
-//    				//open paragraph for title(s)/author
-//    				echo "<p>";
-//    				while ($comics_loop_single->have_posts()) :
-//    					$comics_loop_single->the_post();
-//    					//for each author, print title,  author
-//
-//    		?>
-<!---->
-<!--    				<a href="--><?php //the_permalink(); ?><!--">-->
-<!---->
-<!--    		--><?php //the_title(); ?>
-<!---->
-<!--    				</a><br/>-->
-<!---->
-<!--    		--><?php
-//    				//check for author's note
-//
-//    				$custom_fields = get_post_custom();
-//    				$has_author_note = $custom_fields['has_author_note'];
-//
-//    				$i++;
-//
-//    				endwhile;
-//    				$custom_fields_test = get_post_custom();
-//    				$has_author_note_test = $custom_fields_test['has_author_note'];
-//
-//    				if (! empty($has_author_note)) {
-//    					$author_note_url = site_url();
-//
-//    					//echo "test: $has_author_note_test[0]";
-//    					echo <<<URLLINK
-//
-//    					<a href="$author_note_url/$has_author_note[0]/">Author's Note</a><br />
-//    					URLLINK;
-//    				}
-//    		?>
-<!---->
-<!--    				<span class="author_name">--><?php //the_author(); ?><!-- </span>-->
-<!---->
-<!--    		--><?php
-//    					wp_reset_postdata();
-//    			}
-//    		?>
-<!---->
-<!--    	</div> <!-- closes row --> -->
+            <?php
+                    $i++;
+                    endwhile;
+                    //print author outside of the loop
+            ?>
+                    <span class="author_name"><?php the_author(); ?> </span>
+            <?php
+                        wp_reset_postdata();
+                    }
+            ?>
+        </div> <!-- close row -->
+    <!---->
+    <!--	<span class="text-center p-section-break">▴&nbsp;▴&nbsp;▴</span>-->
+    <!---->
+    <!--	<div class="row justify-content-start"> <!-- opens row for nonfiction -->-->
+    <!---->
+    <!--		<div class="TOC-column">-->
+    <!--			<h3>Nonfiction</h3>-->
+    <!--		</div>-->
+    <!--	</div> <!-- close row -->-->
+    <!--		-->
+    <!--	<div class="row">-->
+    <!--			-->
+    <!--		--><?php
+    //		remove_all_filters('posts_orderby');
+    //		$nonfiction_args = array(
+    //			'category_name' => 'nonfiction',
+    //			'order' => 'ASC',
+    //			'meta_key' => 'TOC_order',
+    //			'orderby' => 'meta_value_num',
+    //			'meta_type' => 'NUMERIC',
+    //			'nopaging' => 'true',
+    //
+    //		);
+    //		$nonfiction_loop = new WP_Query($nonfiction_args);
+    //			$authornames = array();
+    //
+    //				while ($nonfiction_loop->have_posts()) : $nonfiction_loop->the_post();
+    //					$this_author= get_post_meta($post->ID, 'author_lastname', true);
+    //					$this_author_id =get_the_author_meta('ID');
+    //					$authornames[$this_author_id] = $this_author;
+    //
+    //		//print statement of title and author just below worked but put each work and author separately
+    //		?>
+    <!---->
+    <!--		--><?php
+    //				endwhile;
+    //
+    //		//below groups posts by author
+    //
+    //			foreach ($authornames as $author_id=>$author_lastname) {
+    //					$args = array(
+    //				'category_name' => 'nonfiction',
+    //				'author' => $author_id,
+    //				'orderby' => 'date',
+    //				'order' => 'asc',
+    //				'nopaging' => 'true'
+    //				);
+    //		?>
+    <!--		--><?php
+    //				$nonfiction_loop_single = new WP_Query($args);
+    //
+    //				$i = 0;
+    //				//open paragraph for title(s)/author
+    //				echo "<p>";
+    //					while ($nonfiction_loop_single->have_posts()) :
+    //					    $nonfiction_loop_single->the_post();
+    //					//for each author, print title, title, author
+    //		?>
+    <!---->
+    <!--		<a href="--><?php //the_permalink(); ?><!--">-->
+    <!---->
+    <!--		--><?php //the_title(); ?>
+    <!--				-->
+    <!--		</a><br />-->
+    <!---->
+    <!--		--><?php
+    //				$i++;
+    //				endwhile;
+    //				//print author outside of the loop
+    //		?>
+    <!--				<span class="author_name">--><?php //the_author(); ?><!-- </span>-->
+    <!--		--><?php
+    //				wp_reset_postdata();
+    //			}
+    //		?>
+    <!---->
+    <!--	</div> <!-- close row -->-->
+    <!---->
+    <!--	<span class="text-center p-section-break">▴&nbsp;▴&nbsp;▴</span>-->
+    <!---->
+    <!--	<div class="row justify-content-start"> <!-- opens row for poetry -->-->
+    <!---->
+    <!--		<div class="TOC-column">-->
+    <!--			<h3>Poetry</h3>-->
+    <!--		</div>-->
+    <!--	</div>-->
+    <!---->
+    <!--	<div class="row">-->
+    <!--			-->
+    <!--		--><?php
+    //		remove_all_filters('posts_orderby');
+    //		$poetry_args = array(
+    //			'category_name' => 'poetry',
+    //			'order' => 'ASC',
+    //			'meta_key' => 'TOC_order',
+    //			'orderby' => 'meta_value_num',
+    //			'meta_type' => 'NUMERIC',
+    //			'nopaging' => 'true',
+    //
+    //		);
+    //		$poetry_loop = new WP_Query($poetry_args);
+    //			$authornames = array();
+    //
+    //		while ($poetry_loop->have_posts()) : $poetry_loop->the_post();
+    //			$this_author= get_post_meta($post->ID, 'author_lastname', true);
+    //			$this_author_id =get_the_author_meta('ID');
+    //			$authornames[$this_author_id] = $this_author;
+    //
+    //		//print statement of title and author just below worked but put each work and author separately
+    //		?>
+    <!---->
+    <!--		--><?php
+    //				endwhile;
+    //
+    //		//below groups posts by author
+    //
+    //			foreach ($authornames as $author_id=>$author_lastname) {
+    //					$args = array(
+    //				'category_name' => 'poetry',
+    //				'author' => $author_id,
+    //				'orderby' => 'date',
+    //				'order' => 'asc',
+    //				'nopaging' => 'true'
+    //				);
+    //		?>
+    <!--		--><?php
+    //				$poetry_loop_single = new WP_Query($args);
+    //
+    //				$i = 0;
+    //				//open paragraph for title(s)/author
+    //				echo "<p>";
+    //				while ($poetry_loop_single->have_posts()) :
+    //					$poetry_loop_single->the_post();
+    //				//for each author, print title, title, author
+    //		?>
+    <!---->
+    <!--		<a href="--><?php //the_permalink(); ?><!--">-->
+    <!---->
+    <!--		--><?php //the_title(); ?>
+    <!--				-->
+    <!--		</a><br />-->
+    <!---->
+    <!--		--><?php
+    //				$i++;
+    //				endwhile;
+    //				//print author outside of the loop
+    //		?>
+    <!--				<span class="author_name">--><?php //the_author(); ?><!-- </span>-->
+    <!--		--><?php
+    //					wp_reset_postdata();
+    //				}
+    //		?>
+    <!---->
+    <!--	</div> <!-- close row -->-->
+    <!---->
+    <!--	<div class="row justify-content-start"> <!-- open row for comics -->-->
+    <!--    		<div class="TOC-column">-->
+    <!--    			<h3>Comics</h3>-->
+    <!--    		</div>-->
+    <!--    	</div>-->
+    <!---->
+    <!--    	<div class="row">-->
+    <!--    		--><?php
+    //    			remove_all_filters('posts_orderby');
+    //    			$comics_args = array(
+    //    				'category_name' => 'comics',
+    //    				'order' => 'ASC',
+    //    				'meta_key' => 'TOC_order',
+    //    				'orderby' => 'meta_value_num',
+    //    				'meta_type' => 'NUMERIC',
+    //    				'nopaging' => 'true',
+    //    			);
+    //    			$comics_loop = new WP_Query($comics_args);
+    //    			$authornames = array();
+    //
+    //    			while ($comics_loop->have_posts()) : $comics_loop->the_post();
+    //    				$this_author= get_post_meta($post->ID, 'author_lastname', true);
+    //    				$this_author_id =get_the_author_meta('ID');
+    //    				$authornames[$this_author_id] = $this_author;
+    //
+    //    			//print statement of title and author just below worked but put each work and author separately
+    //
+    //    			endwhile;
+    //
+    //    			//group posts by author
+    //
+    //    			foreach ($authornames as $author_id=>$author_lastname) {
+    //    				$args = array(
+    //    					'category_name' => 'comics',
+    //    					'author' => $author_id,
+    //    					'orderby' => 'date',
+    //    					'order' => 'asc',
+    //    					'nopaging' => 'true'
+    //    				);
+    //
+    //    				//start WP loop
+    //    				$comics_loop_single = new WP_Query($args);
+    //
+    //    				$i = 0;
+    //
+    //    				//open paragraph for title(s)/author
+    //    				echo "<p>";
+    //    				while ($comics_loop_single->have_posts()) :
+    //    					$comics_loop_single->the_post();
+    //    					//for each author, print title,  author
+    //
+    //    		?>
+    <!---->
+    <!--    				<a href="--><?php //the_permalink(); ?><!--">-->
+    <!---->
+    <!--    		--><?php //the_title(); ?>
+    <!---->
+    <!--    				</a><br/>-->
+    <!---->
+    <!--    		--><?php
+    //    				//check for author's note
+    //
+    //    				$custom_fields = get_post_custom();
+    //    				$has_author_note = $custom_fields['has_author_note'];
+    //
+    //    				$i++;
+    //
+    //    				endwhile;
+    //    				$custom_fields_test = get_post_custom();
+    //    				$has_author_note_test = $custom_fields_test['has_author_note'];
+    //
+    //    				if (! empty($has_author_note)) {
+    //    					$author_note_url = site_url();
+    //
+    //    					//echo "test: $has_author_note_test[0]";
+    //    					echo <<<URLLINK
+    //
+    //    					<a href="$author_note_url/$has_author_note[0]/">Author's Note</a><br />
+    //    					URLLINK;
+    //    				}
+    //    		?>
+    <!---->
+    <!--    				<span class="author_name">--><?php //the_author(); ?><!-- </span>-->
+    <!---->
+    <!--    		--><?php
+    //    					wp_reset_postdata();
+    //    			}
+    //    		?>
+    <!---->
+    <!--    	</div> <!-- closes row --> -->
+        </div> <!-- closes column -->
 
-		<div class="row">
+        <div class="row">
 			<div class="col-md-8 offset-md-2 single-space-paragraphs">
 				<p><a href="https://shenandoahliterary.org/712/masthead/">Masthead</a></p>
 				<p><a href="https://shenandoahliterary.org/712/contributors/">List of Contributors</a></p>
