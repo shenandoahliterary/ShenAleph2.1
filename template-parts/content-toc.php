@@ -40,14 +40,14 @@
 
     <div class="row">
 
-        <div class="col-4">
+        <div class="col-2">
             <div class="genreHeadings">
                 TEXT
             </div>
         </div>
 
 
-        <div class="col-8">
+        <div class="col-10">
             <span class="TOCcontent">
 
                 <div class="row justify-content-start">
