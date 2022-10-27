@@ -30,7 +30,7 @@
 
 	<section class="topbanner-noborder container-fluid typelogo-container">
 
-		<div class="d-flex justify-content-center">
+		<div class="d-flex justify-content-center" style="margin-bottom: -5vw">
             <img style="width:10%; height:75%;" src="<?php echo get_stylesheet_directory_uri(); ?>/Shenandoah-1600.jpg" alt="Shenandoah Logo" itemprop="logo">
             <p id="typelogo">
 				<a href="https://shenandoahLiterary.org/721/">Shenandoah</a>
