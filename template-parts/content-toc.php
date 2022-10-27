@@ -19,8 +19,14 @@
         <div class="col-8">
             <img style="padding-top:1vw" src="<?php echo get_stylesheet_directory_uri(); ?>/garden.jpeg" alt="" itemprop="">
             <p class="d-flex justify-content-center"><em>[artwork title]</em>,&nbsp;&nbsp; <a href="">[artist name]</a></p>
-
         </div>
+
+        <div class="col-4">
+            <div class="volumeIssueBanner">
+                Volume 72, Number 1 &middot; Fall 2022
+            </div>
+        </div>
+
     </div>
 </section>
 
