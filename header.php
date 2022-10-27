@@ -31,15 +31,13 @@
 	<section class="topbanner-noborder container-fluid typelogo-container">
 
 		<div class="row" style="justify-content: center">
-            <span id="bannerIcon">
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/Shenandoah-1600.jpg" alt="Shenandoah Logo" itemprop="logo">
-            </span>
+                <img id="bannerIcon" src="<?php echo get_stylesheet_directory_uri(); ?>/Shenandoah-1600.jpg" alt="Shenandoah Logo" itemprop="logo">
 			<p id="typelogo">
 				<a href="https://shenandoahLiterary.org/721/">Shenandoah</a>
 			</p>
 		</div>
 
-		<div class="row nav-bar-row" style="padding-top:15px; background-color:rgb(103,173,168)">
+		<div class="row nav-bar-row" style="padding-top:15px">
 			<div class="col-md-6">
 				<div class="volumeIssueBanner">
 					Volume 72, Number 1 &middot; Fall 2022
