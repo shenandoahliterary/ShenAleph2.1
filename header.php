@@ -30,7 +30,7 @@
 
 	<section class="topbanner-noborder container-fluid typelogo-container">
 
-		<div class="row d-flex justify-content-center">
+		<div class="d-flex justify-content-center">
             <span id="bannerIcon">
                 <img style="width: 10%; height: auto" src="<?php echo get_stylesheet_directory_uri(); ?>/Shenandoah-1600.jpg" alt="Shenandoah Logo" itemprop="logo">
 			</span>
