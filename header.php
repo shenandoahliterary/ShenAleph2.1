@@ -51,7 +51,7 @@
 				</div>
 			</div>
 
-			<div class="d-flex flex-nowrap col-md-6 float-md-end nav-bar" role="navigation">
+			<div class="d-flex flex-nowrap col-md-6 float-md-end nav-bar" role="navigation" style="background-color:rgb(103,173,168)">
 				<a class="nav-link" style="padding-right:2.3vw" href="https://shenandoahliterary.org/about/">About</a>
 				<a class="nav-link" style="padding-right:2.3vw" href="https://shenandoahliterary.org/issues/">Issues</a>
 				<a class="nav-link" style="padding-right:2.3vw" href="https://shenandoahliterary.org/submissions/">Submit</a>
