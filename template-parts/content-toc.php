@@ -12,9 +12,7 @@
 /* need to set image in admin dashboard */
 	?>
 	<div class="col-md-12">
-		<div class="text-center">
-            <img style="width:50%; height: auto" src="<?php echo get_stylesheet_directory_uri(); ?>/garden.jpeg" alt="" itemprop="">
-		</div>
+        <img style="width:50%; height: auto" src="<?php echo get_stylesheet_directory_uri(); ?>/garden.jpeg" alt="" itemprop="">
         <p class="d-flex justify-content-center"><em>Garden</em>,&nbsp;&nbsp; <a href="">Julie's Macbook</a></p>
 	</div>
 </div>
