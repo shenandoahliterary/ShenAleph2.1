@@ -11,8 +11,12 @@
         $upload_path =  $uploads['baseurl'];
 /* need to set image in admin dashboard */
 	?>
-        <img style="width:50%; height: auto" src="<?php echo get_stylesheet_directory_uri(); ?>/garden.jpeg" alt="" itemprop="">
-        <p class="d-flex justify-content-center"><em>Garden</em>,&nbsp;&nbsp; <a href="">Julie's Macbook</a></p>
+	<div class="col-md-12">
+		<div class="text-center">
+            <img class="" src="<?php echo $upload_path ?>/2022/06/572x700.jpg">
+		</div>
+        <p class="d-flex justify-content-center"><em>[artwork title]</em>,&nbsp;&nbsp; <a href="">[artist name]</a></p>
+	</div>
 </div>
 
 
