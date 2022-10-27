@@ -30,9 +30,9 @@
     </div>
 </section>
 
-<section class="container TOCsection" style="margin-top:3vw; margin-bottom: 3vw">
+<section class="container TOCsection">
 
-	<div class="row justify-content-center">
+	<div class="row justify-content-center" style="margin-top:3vw; margin-bottom:-3vw">
 		<div class="col-md-8 single-space-paragraphs">
 			<p><a href="https://shenandoahliterary.org/712/editors-note/">Editor&rsquo;s Note</a><br /><span class="author_name">[Editor Name]</span></p>
 		</div>
