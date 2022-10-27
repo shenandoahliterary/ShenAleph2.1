@@ -983,7 +983,10 @@ section.workAuthorBio a {
 }
 
 .genreHeadings {
-	color: #
+	font-family: "Theinhardt";
+	font-weight: 550;
+	font-size: 15px;
+	color: #a37a75;
 }
 
 .volumeIssueImage {
