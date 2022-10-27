@@ -985,8 +985,9 @@ section.workAuthorBio a {
 .genreHeadings {
 	font-family: "Theinhardt";
 	font-weight: 550;
-	font-size: 15px;
+	font-size: 50px;
 	color: #a37a75;
+	line-height: 75px;
 }
 
 .volumeIssueImage {
