@@ -5,7 +5,7 @@
  */
 ?>
 <section class="container" style="background-color: rgb(104,125,145)">
-    <div class="row cover-row" >
+    <div class="row cover-row d-flex align-items-center">
 	    <?php
             $uploads = wp_upload_dir();
             $upload_path =  $uploads['baseurl'];
