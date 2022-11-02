@@ -57,7 +57,7 @@
             <!-- start of guest fiction -->
             <div class="row justify-content-start">
                 <div class="TOC-column">
-                    <a id="guest"><h3>Border Crossing Narratives <br> guest-edited by May-lee Chai  </h3></a>
+                    <a id="guest"><h3>Border Crossing Narratives</h3><h2>guest-edited by May-lee Chai</h2></a>
                 </div>
             </div>
             <div class="row">
