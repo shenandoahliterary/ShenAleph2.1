@@ -41,7 +41,7 @@
     <div class="row">
 
         <div class="col-2">
-            <div class="genreHeadings sticky-top">
+            <div class="genreHeadings sticky-top" style="color:#b66631">
                 <a href="#fiction">Fiction</a> <br>
                 <a style="display: inline-block; transform-origin: left; transform: scaleX(.75); white-space: nowrap; " href="#novel-excerpt">Novel Excerpts</a> <br>
                 <a href="#nonfiction">Nonfiction</a> <br>
