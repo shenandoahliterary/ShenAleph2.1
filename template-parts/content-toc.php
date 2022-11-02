@@ -60,7 +60,7 @@
                     <a id="guest">
                         <h3>
                             Border Crossing Narratives<br>
-                            guest-edited by May-lee Chai
+                            guest-edited by MAY-LEE CHAI
                         </h3>
                     </a>
                 </div>
