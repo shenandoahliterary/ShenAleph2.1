@@ -53,12 +53,11 @@
 
         <div class="col-10">
 
-            <a id="fiction"
                 <span class="TOCcontent">
 
                 <div class="row justify-content-start">
                     <div class="TOC-column">
-                        <h3>Fiction</h3>
+                        <a id="fiction"><h3>Fiction</h3></a>
                     </div>
                 </div>
 
@@ -143,17 +142,15 @@
                         }
                     ?>
                     </a>
-                </div> <!-- closes row -->
+                </div> <!-- closes fiction row -->
             </span>
-            </a>
 
             <span class="text-center p-section-break">▴&nbsp;▴&nbsp;▴</span>
 
-            <a id="novel-excerpt">
                 <div class="row justify-content-start"> <!-- opens row for novel excerpt -->
 
                     <div class="TOC-column flex-shrink-1">
-                        <h3>Novel Excerpt</h3>
+                        <a id="novel-excerpt"><h3>Novel Excerpt</h3></a>
                     </div>
                 </div>
                 <div class="row">
@@ -220,16 +217,14 @@
                                 wp_reset_postdata();
                             }
                     ?>
-                </div> <!-- close row -->
-            </a>
+                </div> <!-- close novel excerpt row -->
 
         	<span class="text-center p-section-break">▴&nbsp;▴&nbsp;▴</span>
 
-            <a id="nonfiction">
                 <div class="row justify-content-start"> <!-- opens row for nonfiction -->
 
                     <div class="TOC-column">
-                        <h3>Nonfiction</h3>
+                        <a id="nonfiction"><h3>Nonfiction</h3></a>
                     </div>
                 </div>
                 <div class="row">
@@ -299,15 +294,13 @@
                     ?>
 
                 </div> <!-- close row -->
-            </a>
 
         	<span class="text-center p-section-break">▴&nbsp;▴&nbsp;▴</span>
 
-            <a id="poetry">
                 <div class="row justify-content-start"> <!-- opens row for poetry -->
 
                     <div class="TOC-column">
-                        <h3>Poetry</h3>
+                        <a id="poetry"><h3>Poetry</h3></a>
                     </div>
                 </div>
                 <div class="row">
@@ -376,8 +369,7 @@
                             }
                     ?>
 
-                </div> <!-- close row -->
-            </a>
+                </div> <!-- close poetry row -->
 
             <span class="text-center p-section-break">▴&nbsp;▴&nbsp;▴</span>
 
@@ -454,7 +446,7 @@
                     }
                     ?>
 
-                    </div> <!-- close row -->
+                    </div> <!-- close comics row -->
             </a>
 
         </div> <!-- closes column -->
