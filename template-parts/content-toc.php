@@ -4,7 +4,7 @@
  *
  */
 ?>
-<section class="container" style="background-color:#c3b6ac">
+<section class="container" style="background-color:#d6cdc6">
     <div class="row cover-row">
 	    <?php
             $uploads = wp_upload_dir();
