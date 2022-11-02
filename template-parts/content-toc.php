@@ -42,9 +42,9 @@
 
         <div class="col-2">
             <div class="genreHeadings sticky-top" style="color:#b66631">
-                <a href="guest">Guest Fiction</a> <br>
+                <a id="formatGH" href="guest">Guest Fiction</a> <br>
                 <a href="#fiction">Fiction</a> <br>
-                <a style="display: inline-block; transform-origin: left; transform: scaleX(.75); white-space: nowrap; " href="#novel-excerpt">Novel Excerpts</a> <br>
+                <a id="formatGH" href="#novel-excerpt">Novel Excerpts</a> <br>
                 <a href="#nonfiction">Nonfiction</a> <br>
                 <a href="#poetry">Poetry</a> <br>
                 <a href="#comics">Comics</a>
@@ -54,15 +54,104 @@
 
         <div class="col-10">
 
-<!--            <span class="TOCcontent">-->
+            <!-- start of guest fiction -->
+            <div class="row justify-content-start">
+                <div class="TOC-column">
+                    <a id="guest"><h3>Border Crossing Narratives <br> guest-edited by May-lee Chai  </h3></a>
+                </div>
+            </div>
+            <div class="row">
 
-                <!-- start of fiction -->
-                <div class="row justify-content-start">
+                <?php
+                remove_all_filters('posts_orderby');
+                $fiction_args = array(
+                    'category_name' => 'guest-fiction',
+                    'order' => 'ASC',
+                    'meta_key' => 'TOC_order',
+                    'orderby' => 'meta_value_num',
+                    'meta_type' => 'NUMERIC',
+                    'nopaging' => 'true',
+                );
+                $fiction_loop = new WP_Query($fiction_args);
+                $authornames = array();
+
+                while ($fiction_loop->have_posts()) : $fiction_loop->the_post();
+                    $this_author= get_post_meta($post->ID, 'author_lastname', true);
+                    $this_author_id =get_the_author_meta('ID');
+                    $authornames[$this_author_id] = $this_author;
+
+                    //print statement of title and author just below worked but put each work and author separately
+
+                endwhile;
+
+                //group posts by author
+
+                foreach ($authornames as $author_id=>$author_lastname) {
+                    $args = array(
+                        'category_name' => 'guest-fiction',
+                        'author' => $author_id,
+                        'orderby' => 'date',
+                        'order' => 'asc',
+                        'nopaging' => 'true'
+                    );
+
+                    //start WP loop
+                    $fiction_loop_single = new WP_Query($args);
+
+                    $i = 0;
+
+                    //open paragraph for title(s)/author
+                    echo "<p>";
+                    while ($fiction_loop_single->have_posts()) :
+                        $fiction_loop_single->the_post();
+                        //for each author, print title,  author
+
+                        ?>
+                        <a href="<?php the_permalink(); ?>">
+
+                            <?php the_title(); ?>
+                        </a><br/>
+                        <?php
+                        //check for author's note
+
+                        $custom_fields = get_post_custom();
+                        $has_author_note = $custom_fields['has_author_note'];
+
+                        $i++;
+
+                    endwhile;
+                    $custom_fields_test = get_post_custom();
+                    $has_author_note_test = $custom_fields_test['has_author_note'];
+
+                    if (! empty($has_author_note)) {
+                        $author_note_url = site_url();
+
+                        //echo "test: $has_author_note_test[0]";
+                        echo <<<URLLINK
+            
+                                <a href="$author_note_url/$has_author_note[0]/">Author's Note</a><br />
+                                URLLINK;
+                    }
+                    ?>
+
+                    <span class="author_name"><?php the_author(); ?> </span>
+                    <?php
+                    wp_reset_postdata();
+                }
+                ?>
+                </a>
+            </div>
+            <!-- close guest fiction -->
+
+            <span class="text-center p-section-break">▴&nbsp;▴&nbsp;▴</span>
+
+            <!-- start of fiction -->
+            <div class="row justify-content-start">
                     <div class="TOC-column">
                         <a id="fiction"><h3>Fiction</h3></a>
                     </div>
                 </div>
-                <div class="row">
+            <div class="row">
 <!--                    <p id="fiction">-->
                     <?php
                         remove_all_filters('posts_orderby');
@@ -143,8 +232,7 @@
                     ?>
                     </a>
                 </div>
-                <!-- closes fiction row -->
-<!--            </span>-->
+            <!-- closes fiction row -->
 
             <span class="text-center p-section-break">▴&nbsp;▴&nbsp;▴</span>
 

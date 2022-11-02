@@ -982,6 +982,13 @@ section.workAuthorBio a {
 	padding: 0 0 0 2vw;
 }
 
+#formatGH {
+	display: inline-block;
+	transform-origin: left;
+	transform: scaleX(.75);
+	white-space: nowrap;
+}
+
 .genreHeadings {
 	font-family: "Theinhardt";
 	font-weight: 550;
