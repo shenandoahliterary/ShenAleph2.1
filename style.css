@@ -982,7 +982,7 @@ section.workAuthorBio a {
 	padding: 0 0 0 2vw;
 }
 
-#formatGH {
+.formatGH {
 	display: inline-block;
 	transform-origin: left;
 	transform: scaleX(.75);
