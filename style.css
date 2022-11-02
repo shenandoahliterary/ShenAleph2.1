@@ -991,7 +991,10 @@ section.workAuthorBio a {
 	top: 10vw;
 }
 
-.genreHeadings a:visited, .genreHeadings a:link{
+.genreHeadings a:visited{
+	color: #b66631;
+}
+.genreHeadings a:link{
 	color: #b66631;
 }
 
