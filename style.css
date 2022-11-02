@@ -985,7 +985,6 @@ section.workAuthorBio a {
 .formatGH {
 	display: inline-block;
 	transform-origin: left;
-	transform: scaleX(.75);
 	white-space: nowrap;
 }
 

@@ -42,9 +42,9 @@
 
         <div class="col-2">
             <div class="genreHeadings sticky-top" style="color:#b66631">
-                <a class="formatGH" href="guest">Guest Fiction</a> <br>
+                <a style="transform: scaleX(.5)" class="formatGH" href="guest">Guest Fiction</a> <br>
                 <a href="#fiction">Fiction</a> <br>
-                <a class="formatGH" href="#novel-excerpt">Novel Excerpts</a> <br>
+                <a style="transform: scaleX(.75)" class="formatGH" href="#novel-excerpt">Novel Excerpts</a> <br>
                 <a href="#nonfiction">Nonfiction</a> <br>
                 <a href="#poetry">Poetry</a> <br>
                 <a href="#comics">Comics</a>
