@@ -17,8 +17,8 @@
 
 <!--            </div>-->
         <div class="col-8">
-            <img style="padding-top:1vw" src="<?php echo get_stylesheet_directory_uri(); ?>/garden.jpeg" alt="" itemprop="">
-            <p class="d-flex justify-content-center"><em>[artwork title]</em>,&nbsp;&nbsp; <a href="">[artist name]</a></p>
+            <img style="padding-top:1vw" src="<?php echo get_stylesheet_directory_uri(); ?>/headerImage.jpg" alt="" itemprop="">
+            <p class="d-flex justify-content-center"><em>Como Fuego</em>,&nbsp;&nbsp; <a href="">Alacran</a></p>
         </div>
 
         <div class="col-4">
