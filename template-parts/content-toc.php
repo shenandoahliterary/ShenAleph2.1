@@ -62,7 +62,7 @@
                 </div>
 
                 <div class="row">
-                    <a id="fiction">
+<!--                    <p id="fiction">-->
                     <?php
                         remove_all_filters('posts_orderby');
                         $fiction_args = array(
@@ -136,7 +136,6 @@
                     ?>
 
                     <span class="author_name"><?php the_author(); ?> </span>
-
                     <?php
                                 wp_reset_postdata();
                         }
@@ -288,6 +287,7 @@
                             //print author outside of the loop
                     ?>
                             <span class="author_name"><?php the_author(); ?> </span>
+                </div>
                     <?php
                             wp_reset_postdata();
                         }
@@ -303,6 +303,7 @@
                     <a id="comics"><h3>Comics</h3></a>
                 </div>
             </div>
+
             <div class="row">
 
                 <?php
@@ -364,6 +365,7 @@
                     //print author outside of the loop
                     ?>
                     <span class="author_name"><?php the_author(); ?> </span>
+
                     <?php
                     wp_reset_postdata();
                 }
@@ -379,6 +381,7 @@
                         <a id="poetry"><h3>Poetry</h3></a>
                     </div>
                 </div>
+
                 <div class="row">
 
                     <?php
@@ -446,8 +449,6 @@
                     ?>
 
                 </div> <!-- close poetry row -->
-
-
 
         </div> <!-- closes column -->
 
