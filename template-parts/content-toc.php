@@ -42,6 +42,7 @@
 
         <div class="col-2">
             <div class="genreHeadings sticky-top" style="color:#b66631">
+                <a href="guest">Guest Fiction</a> <br>
                 <a href="#fiction">Fiction</a> <br>
                 <a style="display: inline-block; transform-origin: left; transform: scaleX(.75); white-space: nowrap; " href="#novel-excerpt">Novel Excerpts</a> <br>
                 <a href="#nonfiction">Nonfiction</a> <br>
@@ -53,14 +54,14 @@
 
         <div class="col-10">
 
-                <span class="TOCcontent">
+<!--            <span class="TOCcontent">-->
 
+                <!-- start of fiction -->
                 <div class="row justify-content-start">
                     <div class="TOC-column">
                         <a id="fiction"><h3>Fiction</h3></a>
                     </div>
                 </div>
-
                 <div class="row">
 <!--                    <p id="fiction">-->
                     <?php
@@ -141,18 +142,20 @@
                         }
                     ?>
                     </a>
-                </div> <!-- closes fiction row -->
-            </span>
+                </div>
+                <!-- closes fiction row -->
+<!--            </span>-->
 
             <span class="text-center p-section-break">▴&nbsp;▴&nbsp;▴</span>
 
-                <div class="row justify-content-start"> <!-- opens row for novel excerpt -->
+            <!-- start of novel excerpt -->
+            <div class="row justify-content-start"> <!-- opens row for novel excerpt -->
 
                     <div class="TOC-column flex-shrink-1">
                         <a id="novel-excerpt"><h3>Novel Excerpt</h3></a>
                     </div>
                 </div>
-                <div class="row">
+            <div class="row">
 
                     <?php
                     remove_all_filters('posts_orderby');
@@ -216,17 +219,18 @@
                                 wp_reset_postdata();
                             }
                     ?>
-                </div> <!-- close novel excerpt row -->
+                </div>
+            <!-- close novel excerpt row -->
 
         	<span class="text-center p-section-break">▴&nbsp;▴&nbsp;▴</span>
 
-                <div class="row justify-content-start"> <!-- opens row for nonfiction -->
-
-                    <div class="TOC-column">
-                        <a id="nonfiction"><h3>Nonfiction</h3></a>
-                    </div>
+            <!-- opens row for nonfiction -->
+            <div class="row justify-content-start">
+                <div class="TOC-column">
+                    <a id="nonfiction"><h3>Nonfiction</h3></a>
                 </div>
-                <div class="row">
+            </div>
+            <div class="row">
 
                     <?php
                     remove_all_filters('posts_orderby');
@@ -287,23 +291,24 @@
                             //print author outside of the loop
                     ?>
                             <span class="author_name"><?php the_author(); ?> </span>
-                </div>
                     <?php
                             wp_reset_postdata();
                         }
                     ?>
 
-                </div> <!-- close row  for nonfiction -->
+
+            </div>
+            <!-- close row for nonfiction -->
 
             <span class="text-center p-section-break">▴&nbsp;▴&nbsp;▴</span>
 
+            <!-- opens row for comics -->
             <div class="row justify-content-start"> <!-- opens row for comics -->
 
                 <div class="TOC-column">
                     <a id="comics"><h3>Comics</h3></a>
                 </div>
             </div>
-
             <div class="row">
 
                 <?php
@@ -371,18 +376,19 @@
                 }
                 ?>
 
-            </div> <!-- close comics row -->
+            </div>
+            <!-- close comics row -->
 
         	<span class="text-center p-section-break">▴&nbsp;▴&nbsp;▴</span>
 
-                <div class="row justify-content-start"> <!-- opens row for poetry -->
+            <!-- open poetry -->
+            <div class="row justify-content-start"> <!-- opens row for poetry -->
 
                     <div class="TOC-column">
                         <a id="poetry"><h3>Poetry</h3></a>
                     </div>
                 </div>
-
-                <div class="row">
+            <div class="row">
 
                     <?php
                     remove_all_filters('posts_orderby');
@@ -448,7 +454,8 @@
                             }
                     ?>
 
-                </div> <!-- close poetry row -->
+                </div>
+            <!-- close poetry row -->
 
         </div> <!-- closes column -->
 
