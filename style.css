@@ -1024,6 +1024,10 @@ section.workAuthorBio a {
 	}
 }
 
+.TOC-subheadings {
+	font-size: 1.5rem;
+}
+
 .TOC-column {
 	color: black;
 	opacity: 60%;

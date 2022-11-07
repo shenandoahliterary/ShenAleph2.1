@@ -36,7 +36,7 @@
 
 	<div class="row justify-content-center" style="margin-top:3vw; margin-bottom:3vw">
 		<div class="col-md-8 single-space-paragraphs">
-            <p style="font-size:1.5rem"><a href="https://shenandoahliterary.org/712/editors-note/">Editor&rsquo;s Note</a><br /><span class="author_name">[Editor Name]</span></p>
+            <p class="TOC-subheadings"><a href="https://shenandoahliterary.org/721/editors-note/">Editor&rsquo;s Note</a><br /><span class="author_name">Beth Staples</span></p>
 		</div>
 	</div>
 
@@ -552,12 +552,14 @@
                 </div>
             <!-- close poetry row -->
 
+            <span class="text-center p-section-break">▴&nbsp;▴&nbsp;▴</span>
+
         </div> <!-- closes column -->
 
         <div class="row">
             <div class="col-md-8 offset-md-2 single-space-paragraphs">
-                <p><a href="https://shenandoahliterary.org/712/masthead/">Masthead</a></p>
-                <p><a href="https://shenandoahliterary.org/712/contributors/">List of Contributors</a></p>
+                <p class="TOC-subheadings"><a href="https://shenandoahliterary.org/721/masthead/">Masthead</a></p>
+                <p class="TOC-subheadings"><a href="https://shenandoahliterary.org/721/contributors/">List of Contributors</a></p>
             </div>
         </div>
 
