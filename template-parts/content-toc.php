@@ -558,8 +558,8 @@
 
         <div class="row">
             <div class="col-md-8 offset-md-2 single-space-paragraphs">
-                <p class="TOC-subheadings"><a href="https://shenandoahliterary.org/721/masthead/">Masthead</a></p>
-                <p class="TOC-subheadings"><a href="https://shenandoahliterary.org/721/contributors/">List of Contributors</a></p>
+                <span class="TOC-subheadings"><a href="https://shenandoahliterary.org/721/masthead/">Masthead</a></span>
+                <span class="TOC-subheadings"><a href="https://shenandoahliterary.org/721/contributors/">List of Contributors</a></span>
             </div>
         </div>
 
