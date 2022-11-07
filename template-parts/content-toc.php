@@ -406,7 +406,7 @@
 
                 <?php
                 remove_all_filters('posts_orderby');
-                $poetry_args = array(
+                $comics_args = array(
                     'category_name' => 'comics',
                     'order' => 'ASC',
                     'meta_key' => 'TOC_order',
