@@ -44,7 +44,7 @@
 
         <div class="col-2">
             <div class="genreHeadings sticky-top" style="color:#b66631">
-                <span style="font-size: 1rem">nav</span> <br>
+                <span style="font-size: 3rem">nav</span> <br>
                 <a style="transform: scaleX(.85)" class="formatGH" href="guest">Guest Fiction</a> <br>
                 <a href="#fiction">Fiction</a> <br>
                 <a style="transform: scaleX(.75)" class="formatGH" href="#novel-excerpt">Novel Excerpts</a> <br>
