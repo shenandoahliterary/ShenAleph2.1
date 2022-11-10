@@ -25,7 +25,7 @@
         </div>
 
         <div class="col-8">
-            <img style="padding-top:1vw" src="<?php echo get_stylesheet_directory_uri(); ?>/headerImage.jpg" alt="" itemprop="">
+            <img style="padding-top:1vw" src="<?php echo get_stylesheet_directory_uri(); ?>/cover1.tif" alt="" itemprop="">
             <p class="d-flex justify-content-center"><em>Como Fuego</em>,&nbsp;&nbsp; <a href="">Alacran</a></p>
         </div>
 
