@@ -32,18 +32,10 @@
     </div>
 </section>
 
-<section class="container TOCsection">
-    <a id="#toc"></a>
-	<div class="row justify-content-center" style="margin-top:3vw; margin-bottom:3vw">
-		<div class="col-md-8 single-space-paragraphs">
-            <p class="TOC-subheadings"><a href="https://shenandoahliterary.org/721/editors-note/">Editor&rsquo;s Note</a><br /><span class="author_name">Beth Staples</span></p>
-		</div>
-	</div>
-
     <div class="row d-flex justify-content-center">
 
-        <div class="col-10 genreHeadings d-flex justify-content-around sticky-top" style="color:#b66631">
-                <a href="guest">Border Crossing Narratives</a>
+        <div class="col-12 genreHeadings d-flex justify-content-around sticky-top" style="color:#b66631">
+                <a href="guest">Border Crossing Narratives by Mai-Lee Chai</a>
                 <a href="#fiction">Fiction</a>
                 <a href="#novel-excerpt">Novel excerpts</a>
                 <a href="#nonfiction">Nonfiction</a>
@@ -51,6 +43,15 @@
                 <a href="#comics">Comics</a>
         </div>
     </div>
+
+<section class="container TOCsection">
+    <a id="#toc"></a>
+	<div class="row justify-content-center" style="margin-top:3vw; margin-bottom:3vw">
+		<div class="single-space-paragraphs">
+            <p class="TOC-subheadings"><a href="https://shenandoahliterary.org/721/editors-note/">Editor&rsquo;s Note</a><br /><span class="author_name">Beth Staples</span></p>
+		</div>
+	</div>
+
 
     <div class="row">
         <div class="col-med-8">
