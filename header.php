@@ -47,7 +47,7 @@
 			</div>
 
 			<div class="d-flex flex-nowrap col-md-8 float-md-end nav-bar" role="navigation">
-				<a class="nav-link" style="padding-right:2.3vw" href="https://shenandoahliterary.org/721/">Current Issue</a>
+				<a class="nav-link" style="padding-right:2.3vw" href="#toc">Current Issue</a>
 				<a class="nav-link" style="padding-right:2.3vw" href="https://shenandoahliterary.org/about/">About</a>
 				<a class="nav-link" style="padding-right:2.3vw" href="https://shenandoahliterary.org/issues/">Archive</a>
 				<a class="nav-link" style="padding-right:2.3vw" href="https://shenandoahliterary.org/submissions/">Submit</a>
