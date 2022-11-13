@@ -31,6 +31,8 @@
 
     </div>
 
+    </section>
+
         <div class="row  sticky-top" style="top: 1vw; margin-top: 10px">
 
             <div class="col d-flex justify-content-between genreHeadings sticky-top" style="top: 1vw; color:#b66631">
@@ -44,7 +46,6 @@
         </div>
 
 
-</section>
 
 
 <section class="container TOCsection">
