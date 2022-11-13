@@ -45,7 +45,7 @@
         <div class="col-10 genreHeadings" style="color:#b66631">
                 <a href="guest">Border Crossing Narratives</a>
                 <a href="#fiction">Fiction</a>
-                <a href="#novel-excerpt">Novel excerpts</a> <br>
+                <a href="#novel-excerpt">Novel excerpts</a>
                 <a href="#nonfiction">Nonfiction</a>
                 <a href="#poetry">Poetry</a>
                 <a href="#comics">Comics</a>
