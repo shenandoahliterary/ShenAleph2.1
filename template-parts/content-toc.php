@@ -40,7 +40,7 @@
 		</div>
 	</div>
 
-    <div class="row justify-content-center sticky-top">
+    <div class="row d-flex justify-content-center sticky-top">
 
         <div class="col-10 genreHeadings" style="color:#b66631">
                 <a href="guest">Border Crossing Narratives</a>
