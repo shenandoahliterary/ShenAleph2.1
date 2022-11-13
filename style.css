@@ -992,8 +992,6 @@ section.workAuthorBio a {
 	font-family: "Theinhardt";
 	font-size: 20px;
 	font-weight: 550;
-	position: sticky;
-	top: -1px;
 }
 
 .genreHeadings a:visited, .genreHeadings a:hover {
