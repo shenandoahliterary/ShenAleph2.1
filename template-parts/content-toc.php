@@ -35,7 +35,7 @@
 
         <div class="row sticky-top" style="background: white; top: 2vw; margin-top: 10px; opacity: .7;">
 
-            <div class="col d-flex justify-content-between genreHeadings sticky-top" style="padding-top: .5vw; color:#b66631; padding-left: 10vw; padding-right: 10vw">
+            <div class="col d-flex justify-content-between genreHeadings sticky-top" style="opacity: 1; padding-top: .5vw; color:#b66631; padding-left: 10vw; padding-right: 10vw">
                     <a href="#guest">Border Crossing Narratives by Mai-Lee Chai</a>
                     <a href="#poetry">Poetry</a>
                     <a href="#fiction">Fiction</a>
@@ -59,11 +59,10 @@
 
     <div class="row">
         <div class="col-med-8">
-
+            <a id="guest"></a>
             <!-- start of guest fiction -->
             <div class="row justify-content-start">
                 <div class="TOC-column">
-                    <a id="guest">
                         <h3>
                             Border Crossing Narratives<br>
                             guest-edited by MAY-LEE CHAI
@@ -150,17 +149,17 @@
                     wp_reset_postdata();
                 }
                 ?>
-                </a>
             </div>
             <!-- close guest fiction -->
 
+            <a id="poetry"></a>
             <span class="text-center p-section-break">▴&nbsp;▴&nbsp;▴</span>
 
                         <!-- open poetry -->
                         <div class="row justify-content-start"> <!-- opens row for poetry -->
 
                                 <div class="TOC-column">
-                                    <a id="poetry"><h3>Poetry</h3></a>
+                                   <h3>Poetry</h3>
                                 </div>
                             </div>
                         <div class="row">
@@ -232,12 +231,13 @@
                             </div>
                         <!-- close poetry row -->
 
+            <a id="fiction"></a>
             <span class="text-center p-section-break">▴&nbsp;▴&nbsp;▴</span>
 
             <!-- start of fiction -->
             <div class="row justify-content-start">
                     <div class="TOC-column">
-                        <a id="fiction"><h3>Fiction</h3></a>
+                       <h3>Fiction</h3>
                     </div>
                 </div>
             <div class="row">
@@ -323,13 +323,14 @@
                 </div>
             <!-- closes fiction row -->
 
+            <a id="novel-excerpt"></a>
             <span class="text-center p-section-break">▴&nbsp;▴&nbsp;▴</span>
 
             <!-- start of novel excerpt -->
             <div class="row justify-content-start"> <!-- opens row for novel excerpt -->
 
                     <div class="TOC-column flex-shrink-1">
-                        <a id="novel-excerpt"><h3>Novel Excerpt</h3></a>
+                        <h3>Novel Excerpt</h3>
                     </div>
                 </div>
             <div class="row">
@@ -399,12 +400,13 @@
                 </div>
             <!-- close novel excerpt row -->
 
+            <a id="nonfiction"></a>
         	<span class="text-center p-section-break">▴&nbsp;▴&nbsp;▴</span>
 
             <!-- opens row for nonfiction -->
             <div class="row justify-content-start">
                 <div class="TOC-column">
-                    <a id="nonfiction"><h3>Nonfiction</h3></a>
+                    <h3>Nonfiction</h3>
                 </div>
             </div>
             <div class="row">
@@ -477,13 +479,14 @@
             </div>
             <!-- close row for nonfiction -->
 
+            <a id="comics"></a>
             <span class="text-center p-section-break">▴&nbsp;▴&nbsp;▴</span>
 
             <!-- opens row for comics -->
             <div class="row justify-content-start"> <!-- opens row for comics -->
 
                 <div class="TOC-column">
-                    <a id="comics"><h3>Comics</h3></a>
+                    <h3>Comics</h3>
                 </div>
             </div>
             <div class="row">
