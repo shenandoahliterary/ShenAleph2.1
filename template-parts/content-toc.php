@@ -327,7 +327,7 @@
             <div class="row justify-content-start"> <!-- opens row for novel excerpt -->
 
                     <div class="TOC-column flex-shrink-1">
-                        <h3>Novel Excerpts</h3>
+                        <h3>Novel excerpts</h3>
                     </div>
                 </div>
             <div class="row">
