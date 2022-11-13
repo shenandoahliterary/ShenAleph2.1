@@ -41,7 +41,7 @@
 
 		<div class="row nav-bar-row" style="margin-top:.25vw; padding-top:.5vw">
 			<div class="col-md-4">
-				<div class="volumeIssueBanner">
+				<div class="volumeIssueBanner" style="padding-left: 6vw">
 					Volume 72, Number 1 &middot; Fall 2022
 				</div>
 			</div>
@@ -51,7 +51,7 @@
 				<a class="nav-link" style="padding-right:2.3vw" href="https://shenandoahliterary.org/about/">About</a>
 				<a class="nav-link" style="padding-right:2.3vw" href="https://shenandoahliterary.org/issues/">Archive</a>
 				<a class="nav-link" style="padding-right:2.3vw" href="https://shenandoahliterary.org/submissions/">Submit</a>
-				<a class="nav-link" style="padding-right:6w" href="https://shenandoahliterary.org/thepeak">The Peak</a>
+				<a class="nav-link" style="padding-right:6vw" href="https://shenandoahliterary.org/thepeak">The Peak</a>
 			</div>
 		</div>
 
