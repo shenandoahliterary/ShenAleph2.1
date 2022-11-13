@@ -990,12 +990,10 @@ section.workAuthorBio a {
 
 .genreHeadings {
 	font-family: "Theinhardt";
-	font-size: .5vw;
+	font-size: 2rem;
 }
 
 .genreHeadings a:visited, .genreHeadings a:hover {
-	padding-left: 2.3vw;
-	padding-right: 2.3vw;
 }
 
 .volumeIssueImage {
