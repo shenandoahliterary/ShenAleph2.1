@@ -41,8 +41,9 @@
 	</div>
 
     <div class="row">
-        <div class="col-md-10 d-flex justify-content-center sticky-top genreHeadings" style="color:#b66631">
-                <a class="formatGH" href="guest">Border Crossing Narratives guest edited by May-lee Chai</a>
+
+        <div class="col-10 d-flex justify-content-center sticky-top genreHeadings" style="color:#b66631">
+                <a class="formatGH" href="guest">Border Crossing Narratives</a>
                 <a href="#fiction">Fiction</a>
                 <a class="formatGH" href="#novel-excerpt">Novel excerpts</a> <br>
                 <a href="#nonfiction">Nonfiction</a>
