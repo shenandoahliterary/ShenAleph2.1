@@ -33,9 +33,9 @@
 
     </section>
 
-        <div class="row sticky-top" style="top: 2vw; margin-top: 10px">
+        <div class="row sticky-top" style="background: white; top: 4vw; margin-top: 10px">
 
-            <div class="col d-flex justify-content-between genreHeadings sticky-top" style="top: 2vw; color:#b66631; padding-left: 8vw; padding-right: 8vw">
+            <div class="col d-flex justify-content-between genreHeadings sticky-top" style="top: 4vw; color:#b66631; padding-left: 10vw; padding-right: 10vw">
                     <a href="#guest">Border Crossing Narratives by Mai-Lee Chai</a>
                     <a href="#poetry">Poetry</a>
                     <a href="#fiction">Fiction</a>
