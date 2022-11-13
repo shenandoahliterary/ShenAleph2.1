@@ -62,7 +62,7 @@
                 <div class="TOC-column">
                         <h3>
                             Border Crossing Narratives<br>
-                            guest-edited by MAY-LEE CHAI
+                            guest-edited by May-lee Chai
                         </h3>
                     </a>
                 </div>
