@@ -41,15 +41,13 @@
 	</div>
 
     <div class="row">
-        <div class="col-med-8">
-            <div class="genreHeadings sticky-top" style="color:#b66631">
+        <div class="d-flex flex-nowrap col-md-10 float-md-none genreHeadings sticky-top" style="color:#b66631">
                 <a class="formatGH" href="guest">Border Crossing Narratives guest edited by May-lee Chai</a>
                 <a href="#fiction">Fiction</a>
                 <a class="formatGH" href="#novel-excerpt">Novel excerpts</a> <br>
                 <a href="#nonfiction">Nonfiction</a>
                 <a href="#poetry">Poetry</a>
                 <a href="#comics">Comics</a>
-            </div>
         </div>
     </div>
 

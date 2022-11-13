@@ -990,7 +990,8 @@ section.workAuthorBio a {
 
 .genreHeadings {
 	font-family: "Theinhardt";
-	font-size: 1.5rem;
+	font-size: 20px;
+	font-weight: 550;
 }
 
 .genreHeadings a:visited, .genreHeadings a:hover {
