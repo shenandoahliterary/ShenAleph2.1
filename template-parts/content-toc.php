@@ -41,7 +41,7 @@
 	</div>
 
     <div class="row">
-        <div class="col-med-8 d-flex justify-content-around">
+        <div class="col-med-8">
             <div class="genreHeadings sticky-top" style="color:#b66631">
                 <a class="formatGH" href="guest">Border Crossing Narratives guest edited by May-lee Chai</a>
                 <a href="#fiction">Fiction</a>
