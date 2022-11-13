@@ -40,9 +40,9 @@
 		</div>
 	</div>
 
-    <div class="row d-flex justify-content-center sticky-top">
+    <div class="row d-flex justify-content-center">
 
-        <div class="col-10 genreHeadings" style="color:#b66631">
+        <div class="col-10 genreHeadings d-flex justify-content-around sticky-top" style="color:#b66631">
                 <a href="guest">Border Crossing Narratives</a>
                 <a href="#fiction">Fiction</a>
                 <a href="#novel-excerpt">Novel excerpts</a>
