@@ -46,12 +46,10 @@
         </div>
 
 
-
-
 <section class="container TOCsection">
     <a id="#toc"></a>
 	<div class="row justify-content-center" style="margin-top:3vw; margin-bottom:3vw">
-		<div class="single-space-paragraphs">
+		<div>
             <p class="TOC-subheadings"><a href="https://shenandoahliterary.org/721/editors-note/">Editor&rsquo;s Note</a><br /><span class="author_name">Beth Staples</span></p>
 		</div>
 	</div>
