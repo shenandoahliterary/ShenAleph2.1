@@ -42,10 +42,10 @@
 
     <div class="row justify-content-center sticky-top">
 
-        <div class="col-10 genreHeadings" style=" top: -1vw; color:#b66631">
-                <a class="formatGH" href="guest">Border Crossing Narratives</a>
+        <div class="col-10 genreHeadings" style="color:#b66631">
+                <a href="guest">Border Crossing Narratives</a>
                 <a href="#fiction">Fiction</a>
-                <a class="formatGH" href="#novel-excerpt">Novel excerpts</a> <br>
+                <a href="#novel-excerpt">Novel excerpts</a> <br>
                 <a href="#nonfiction">Nonfiction</a>
                 <a href="#poetry">Poetry</a>
                 <a href="#comics">Comics</a>
