@@ -999,10 +999,9 @@ section.workAuthorBio a {
 	padding-right: 10vw
 }
 
-/*.genreHeadings a:visited, .genreHeadings a:hover {*/
-/*	padding-left: 2.3vw;*/
-/*	padding-right: 2.3vw;*/
-/*}*/
+.genreHeadings a:visited, .genreHeadings a:hover {
+	color: white;
+}
 
 .volumeIssueImage {
 	color: white;
