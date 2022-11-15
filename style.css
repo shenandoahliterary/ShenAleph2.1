@@ -992,6 +992,7 @@ section.workAuthorBio a {
 	font-family: "Theinhardt";
 	font-size: 20px;
 	font-weight: 550;
+	text-transform: uppercase;
 }
 
 /*.genreHeadings a:visited, .genreHeadings a:hover {*/
