@@ -47,12 +47,6 @@
 
 <section class="container TOCsection">
     <a id="#toc"></a>
-	<div class="row d-flex justify-content-center" style="margin-top:3vw; margin-bottom:3vw">
-		<div class="col-12">
-            <p class="TOC-subheadings"><a href="https://shenandoahliterary.org/721/editors-note/">Editor&rsquo;s Note</a><br /><span class="author_name">Beth Staples</span></p>
-		</div>
-	</div>
-
 
     <div class="row">
         <div class="col-med-8">
@@ -560,14 +554,15 @@
 
         </div> <!-- closes column -->
 
-        <div class="row">
-            <div class="col-md-8 offset-md-2 single-space-paragraphs">
-                <span class="TOC-subheadings"><p><a href="https://shenandoahliterary.org/721/masthead/">Masthead</a></span>
-                <span class="TOC-subheadings"><p><a href="https://shenandoahliterary.org/721/contributors/">List of Contributors</a></span>
-            </div>
+	<div class="row d-flex justify-content-center" style="margin-top:3vw; margin-bottom:3vw">
+		<div class="col-12">
+            <p class="TOC-subheadings"><a href="https://shenandoahliterary.org/721/editors-note/">Editor&rsquo;s Note</a><br /><span class="author_name">Beth Staples</span></p>
+            <span class="TOC-subheadings"><p><a href="https://shenandoahliterary.org/721/masthead/">Masthead</a></span>
+            <span class="TOC-subheadings"><p><a href="https://shenandoahliterary.org/721/contributors/">List of Contributors</a></span>
         </div>
+    </div>
 
-        </section>
+</section>
 
         <!--  Quote section -->
         <section class="container TOC-quote">
