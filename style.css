@@ -993,7 +993,10 @@ section.workAuthorBio a {
 	font-size: 20px;
 	font-weight: 550;
 	text-transform: uppercase;
-	padding-top: .5vw; color:#b66631; padding-left: 10vw; padding-right: 10vw
+	padding-top: .5vw;
+	color:white;
+	padding-left: 10vw;
+	padding-right: 10vw
 }
 
 /*.genreHeadings a:visited, .genreHeadings a:hover {*/
