@@ -49,10 +49,10 @@
     <a id="#toc"></a>
 
     <div class="row">
-        <div class="col-med-8">
+        <div class="col-12">
             <a id="guest"></a>
             <!-- start of guest fiction -->
-            <div class="row justify-content-start">
+            <div class="row">
                 <div class="TOC-column" style="padding-top: 3em">
                         <h3>
                             Border Crossing Narratives<br>
@@ -61,7 +61,7 @@
                     </a>
                 </div>
             </div>
-            <div class="row">
+        <div class="row">
 
                 <?php
                 remove_all_filters('posts_orderby');
@@ -146,14 +146,14 @@
             <a id="poetry"></a>
             <span class="text-center p-section-break">▴&nbsp;▴&nbsp;▴</span>
 
-                        <!-- open poetry -->
-                        <div class="row justify-content-start"> <!-- opens row for poetry -->
+            <!-- open poetry -->
+            <div class="row"> <!-- opens row for poetry -->
 
-                                <div class="TOC-column">
-                                   <h3>Poetry</h3>
-                                </div>
-                            </div>
-                        <div class="row">
+                <div class="TOC-column">
+                    <h3>Poetry</h3>
+                </div>
+            </div>
+                <div class="row">
 
                                 <?php
                                 remove_all_filters('posts_orderby');
@@ -226,7 +226,7 @@
             <span class="text-center p-section-break">▴&nbsp;▴&nbsp;▴</span>
 
             <!-- start of fiction -->
-            <div class="row justify-content-start">
+            <div class="row">
                     <div class="TOC-column">
                        <h3>Fiction</h3>
                     </div>
@@ -318,9 +318,9 @@
             <span class="text-center p-section-break">▴&nbsp;▴&nbsp;▴</span>
 
             <!-- start of novel excerpt -->
-            <div class="row justify-content-start"> <!-- opens row for novel excerpt -->
+            <div class="row"> <!-- opens row for novel excerpt -->
 
-                    <div class="TOC-column flex-shrink-1">
+                    <div class="TOC-column">
                         <h3>Novel excerpts</h3>
                     </div>
                 </div>
@@ -395,7 +395,7 @@
         	<span class="text-center p-section-break">▴&nbsp;▴&nbsp;▴</span>
 
             <!-- opens row for nonfiction -->
-            <div class="row justify-content-start">
+            <div class="row">
                 <div class="TOC-column">
                     <h3>Nonfiction</h3>
                 </div>
@@ -474,7 +474,7 @@
             <span class="text-center p-section-break">▴&nbsp;▴&nbsp;▴</span>
 
             <!-- opens row for comics -->
-            <div class="row justify-content-start"> <!-- opens row for comics -->
+            <div class="row"> <!-- opens row for comics -->
 
                 <div class="TOC-column">
                     <h3>Comics</h3>
