@@ -52,7 +52,7 @@
         <div class="col-12">
             <a id="guest"></a>
             <!-- start of guest fiction -->
-            <div class="row">
+            <div class="row text-start">
                 <div class="TOC-column" style="padding-top: 3em">
                         <h3>
                             Border Crossing Narratives<br>
