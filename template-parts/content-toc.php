@@ -53,7 +53,7 @@
             <a id="guest"></a>
             <!-- start of guest fiction -->
             <div class="row justify-content-start">
-                <div class="TOC-column">
+                <div class="TOC-column" style="padding-top: 10px">
                         <h3>
                             Border Crossing Narratives<br>
                             guest-edited by May-lee Chai
