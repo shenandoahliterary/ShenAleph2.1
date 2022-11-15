@@ -61,7 +61,8 @@
                     </a>
                 </div>
             </div>
-        <div class="row">
+
+            <div class="row">
 
                 <?php
                 remove_all_filters('posts_orderby');
