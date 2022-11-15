@@ -33,7 +33,7 @@
 
     </section>
 
-        <div class="row sticky-top" style="background: #387344; top: 2vw; margin-top: 10px;">
+        <div class="row sticky-top" style="background: #303B34; top: 2vw; margin-top: 10px;">
 
             <div class="col d-flex justify-content-between genreHeadings sticky-top" style="">
                     <a href="#guest">Border Crossing Narratives</a>
