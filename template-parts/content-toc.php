@@ -17,7 +17,7 @@
         </div>
 
         <div class="col-8">
-            <img style="margin-left: -3vw; padding-top:1vw; z-index: 0" src="<?php echo get_stylesheet_directory_uri(); ?>/cover1.jpg" alt="" itemprop="">
+            <img style="margin-left: -3vw; padding-top:1vw; z-index: 1" src="<?php echo get_stylesheet_directory_uri(); ?>/cover1.jpg" alt="" itemprop="">
             <p class="d-flex justify-content-center" ><em>The Mistake Room</em>,&nbsp;&nbsp; <a href="">Esteban Ramón Pérez</a></p>
         </div>
 
