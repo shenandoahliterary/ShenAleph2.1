@@ -555,7 +555,7 @@
 		<div class="col-12 ">
             <p class="TOC-subheadings"><a href="https://shenandoahliterary.org/721/editors-note/">Editor&rsquo;s Note</a><br /><span class="author_name">Beth Staples</span></p>
             <p class="TOC-subheadings"><a href="https://shenandoahliterary.org/721/masthead/">Masthead</a></p>
-            <p class="TOC-subheadings"><a href="https://shenandoahliterary.org/721/contributors/">List of Contributors</a></p><
+            <p class="TOC-subheadings"><a href="https://shenandoahliterary.org/721/contributors/">List of Contributors</a></p>
         </div>
     </div>
 

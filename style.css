@@ -1047,6 +1047,7 @@ section.workAuthorBio a {
 .closingCredits {
 	/*margin-top:3vw;*/
 	/*margin-bottom:3vw;*/
+	text-align: center;
 }
 
 @media screen and (max-width: 768px){
