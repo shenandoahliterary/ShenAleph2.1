@@ -6,11 +6,6 @@
 ?>
 <section class="container">
     <div class="row cover-row"  style="background-color:#303B35">
-	    <?php
-            $uploads = wp_upload_dir();
-            $upload_path =  $uploads['baseurl'];
-            /* need to set image in admin dashboard */
-	    ?>
 
         <div class="col-4">
             <div class="volumeIssueImage">
