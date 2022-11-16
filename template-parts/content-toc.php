@@ -5,10 +5,10 @@
  */
 ?>
 
-//   style="background-color:#303B35"
+<!--   style="background-color:#303B35" -->
 
 <section class="container">
-    <div class="row cover-row">
+    <div class="row cover-row d-flex">
 
         <div class="col-4">
             <div class="volumeIssueImage" style="background-color:#303B35">
@@ -17,7 +17,7 @@
         </div>
 
         <div class="col-8">
-            <img style="padding-top:1vw" src="<?php echo get_stylesheet_directory_uri(); ?>/cover1.jpg" alt="" itemprop="">
+            <img style="left-margin: -20px; padding-top:1vw" src="<?php echo get_stylesheet_directory_uri(); ?>/cover1.jpg" alt="" itemprop="">
             <p class="d-flex justify-content-center" ><em>The Mistake Room</em>,&nbsp;&nbsp; <a href="">Esteban Ramón Pérez</a></p>
         </div>
 
