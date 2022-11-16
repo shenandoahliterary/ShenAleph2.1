@@ -1058,7 +1058,8 @@ section.workAuthorBio a {
 }
 
 .TOC-subheadings {
-	font-size: 1.5rem;
+	font-size: 1.25rem;
+	text-align: center;
 }
 
 .TOC-column {
@@ -1068,7 +1069,7 @@ section.workAuthorBio a {
 
 .TOCsection p {
 	font-size: 1.25rem;
-	margin-left: 3.5px;
+	margin-left: 3.5vw;
 
 }
 
