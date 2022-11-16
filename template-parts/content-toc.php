@@ -8,7 +8,7 @@
 <!--   style="background-color:#303B35" -->
 
 <section class="container">
-    <div class="row cover-row d-flex">
+    <div class="row cover-row d-flex justify-content-center">
 
         <div class="col-4" style="z-index: 1">
             <div class="align-self-center volumeIssueText" style="background-color:#303B35">
