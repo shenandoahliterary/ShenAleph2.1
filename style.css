@@ -1003,13 +1003,16 @@ section.workAuthorBio a {
 	color: white;
 }
 
-.volumeIssueImage {
+.volumeIssueText {
 	color: white;
 	font-family: "Theinhardt";
 	font-weight: 550;
 	font-size: 5vw;
 	text-align: center;
-	z-index: 2;
+}
+
+.volumeIssueImage {
+	margin-left: -3vw;
 }
 
 .TOCcontent {

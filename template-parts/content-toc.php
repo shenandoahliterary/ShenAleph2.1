@@ -10,14 +10,14 @@
 <section class="container">
     <div class="row cover-row d-flex">
 
-        <div class="col-4">
-            <div class="align-self-center volumeIssueImage" style="background-color:#303B35">
+        <div class="col-4" style="z-index: 1">
+            <div class="align-self-center volumeIssueText" style="background-color:#303B35">
                 Volume 72, Number 1 &middot; Fall 2022
             </div>
         </div>
 
-        <div class="col-8">
-            <img style="margin-left: -3vw; padding-top:1vw; z-index: 1" src="<?php echo get_stylesheet_directory_uri(); ?>/cover1.jpg" alt="" itemprop="">
+        <div class="col-8 volumeIssueImage">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/cover1.jpg" alt="" itemprop="">
             <p class="d-flex justify-content-center" ><em>The Mistake Room</em>,&nbsp;&nbsp; <a href="">Esteban Ramón Pérez</a></p>
         </div>
 
