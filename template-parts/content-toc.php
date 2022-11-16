@@ -4,11 +4,14 @@
  *
  */
 ?>
+
+//   style="background-color:#303B35"
+
 <section class="container">
-    <div class="row cover-row"  style="background-color:#303B35">
+    <div class="row cover-row">
 
         <div class="col-4">
-            <div class="volumeIssueImage">
+            <div class="volumeIssueImage" style="background-color:#303B35">
                 Volume 72, Number 1 &middot; Fall 2022
             </div>
         </div>
