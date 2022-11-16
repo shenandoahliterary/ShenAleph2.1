@@ -1029,6 +1029,8 @@ section.workAuthorBio a {
 	z-index: 99;
 }
 
+.genreNav-bar {
+	background: #303B34;
 }
 
 .TOCcontent {
@@ -1328,6 +1330,7 @@ a:hover, a:active {
     justify-content: right;
 	text-transform: uppercase;
 	background-color: white;
+
 	
 }
 
