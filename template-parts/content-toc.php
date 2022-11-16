@@ -10,7 +10,7 @@
 <section class="container">
     <div class="row cover-row d-flex justify-content-center img-container">
 
-       <img style="width: 8vw; height: auto; padding-right: 1.25vw" draggable="false" src="<?php echo get_stylesheet_directory_uri(); ?>/volumeIssueBanner.png" alt="" itemprop="">
+       <img style="width: 20vw; height: auto; padding-right: 1.25vw" draggable="false" src="<?php echo get_stylesheet_directory_uri(); ?>/volumeIssueBanner.png" alt="" itemprop="">
 
 <!--
         <div class="col-4" style="left-margin: 4vw; z-index: 1">
