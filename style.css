@@ -1045,8 +1045,8 @@ section.workAuthorBio a {
 }
 
 .closingCredits {
-	margin-top:3vw;
-	margin-bottom:3vw;
+	/*margin-top:3vw;*/
+	/*margin-bottom:3vw;*/
 }
 
 @media screen and (max-width: 768px){
