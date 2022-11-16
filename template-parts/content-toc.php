@@ -51,7 +51,7 @@
             <div class="row">
                 <div class="TOC-column text-start" style="padding-top: 3em">
                         <h3>
-                            Border Crossing Narratives<br>
+                            Border Crossing Narratives
                             guest-edited by May-lee Chai
                         </h3>
                     </a>
