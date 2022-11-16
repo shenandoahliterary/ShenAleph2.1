@@ -999,7 +999,7 @@ section.workAuthorBio a {
 	padding-right: 10vw
 }
 
-.genreHeadings a:default, .genreHeadings a:visited, .genreHeadings a:hover {
+.genreHeadings a:link, .genreHeadings a:visited, .genreHeadings a:hover {
 	color: white;
 }
 
