@@ -551,13 +551,13 @@
 
         </div> <!-- closes column -->
 
+</section>
+
 	<div class="row closingCredits d-flex justify-content-center">
             <p class="TOC-subheadings"><a href="https://shenandoahliterary.org/721/editors-note/">Editor&rsquo;s Note</a><br /><span class="author_name">Beth Staples</span></p>
             <p class="TOC-subheadings"><a href="https://shenandoahliterary.org/721/masthead/">Masthead</a></p>
             <p class="TOC-subheadings"><a href="https://shenandoahliterary.org/721/contributors/">List of Contributors</a></p>
     </div>
-
-</section>
 
         <!--  Quote section -->
         <section class="container TOC-quote">
