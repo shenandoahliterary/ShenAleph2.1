@@ -551,7 +551,7 @@
 
         </div> <!-- closes column -->
 
-	<div class="row closingCredits d-flex justify-content-center" style="">
+	<div class="row closingCredits" style="">
 		<div class="col-12 ">
             <p class="TOC-subheadings"><a href="https://shenandoahliterary.org/721/editors-note/">Editor&rsquo;s Note</a><br /><span class="author_name">Beth Staples</span></p>
             <p class="TOC-subheadings"><a href="https://shenandoahliterary.org/721/masthead/">Masthead</a></p>
