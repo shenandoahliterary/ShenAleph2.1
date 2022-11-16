@@ -11,7 +11,7 @@
     <div class="row cover-row d-flex">
 
         <div class="col-4">
-            <div class="volumeIssueImage" style="margin-left: 1vw; background-color:#303B35">
+            <div class="volumeIssueImage" style="background-color:#303B35">
                 Volume 72, Number 1 &middot; Fall 2022
             </div>
         </div>
