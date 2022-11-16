@@ -10,7 +10,7 @@
 <section class="container">
     <div class="row cover-row d-flex justify-content-center">
 
-        <div class="col-4" style="z-index: 1">
+        <div class="col-4" style="left-margin: 4vw; z-index: 1">
             <div class="align-self-center volumeIssueText" style="background-color:#303B35">
                 Volume 72, Number 1 &middot; Fall 2022
             </div>
