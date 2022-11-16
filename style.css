@@ -1044,6 +1044,11 @@ section.workAuthorBio a {
 	top: 5vw;
 }
 
+.closingCredits {
+	margin-top:3vw;
+	margin-bottom:3vw;
+}
+
 @media screen and (max-width: 768px){
 	.TOCsection h3 {
 		font-size: 36px;
