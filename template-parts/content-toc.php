@@ -42,7 +42,7 @@
         </div>
 
 <section class="container TOCsection">
-    <a id="#toc"></a>
+    <a id="toc"></a>
 
     <div class="row">
         <div class="col-12">
