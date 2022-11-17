@@ -613,7 +613,7 @@
 			<?php
 			$args = array(
 			  //  'category_name'         => 'feature',
-				'category_name'         => 'On Craft,Conversations',
+				'category_name'         => 'On Craft,Conversations,Playlist',
 
 			);
 			$category_posts = new WP_Query($args);
