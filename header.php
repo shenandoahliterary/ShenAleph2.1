@@ -20,8 +20,9 @@
 <link rel="stylesheet" href="https://use.typekit.net/nci7nxi.css">
 <link rel="stylesheet" href="style.css">
 	<?php wp_head(); ?>
+	<!-- 
 	<script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/d3fb306d3e3ad334647dfe1e3/ae9b8e29d4b3f84801343e0b8.js");</script>
-
+-->
 </head>
 
 <body <?php body_class(); ?>>
