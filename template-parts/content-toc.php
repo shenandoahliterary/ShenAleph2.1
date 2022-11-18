@@ -11,7 +11,7 @@
     <div class="row cover-row d-flex justify-content-center img-container">
 
        <img style="width: 90vw; height: auto; padding-right: 1.25vw" draggable="false" src="<?php echo get_stylesheet_directory_uri(); ?>/volumeIssueBanner.png" alt="" itemprop="">
-        <p class="d-flex justify-content-center" ><em>Guadalicue, 2019</em>, detail.&nbsp; <a href="">Esteban Ramón Pérez</a>. Leather, acrylic, and gold flake, approximately 6.5 x 12 feet.</p>
+        <p class="d-flex justify-content-center" ><em>Guadalicue, 2019</em>, detail.&nbsp; <a href="https://estebanramonperez.com/">Esteban Ramón Pérez</a>. Leather, acrylic, and gold flake, approximately 6.5 x 12 feet.</p>
 
 <!--
         <div class="col-4" style="left-margin: 4vw; z-index: 1">
