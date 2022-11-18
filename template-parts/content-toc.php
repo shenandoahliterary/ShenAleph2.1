@@ -8,7 +8,7 @@
 <!--   style="background-color:#303B35" -->
 
 <section class="container">
-    <div class="row cover-row d-flex justify-content-center img-container">
+    <div class="row cover-row d-flex justify-content-center">
 
        <img style="width: 90vw; height: auto; padding-right: 1.25vw" draggable="false" src="<?php echo get_stylesheet_directory_uri(); ?>/volumeIssueBanner.png" alt="" itemprop="">
        
