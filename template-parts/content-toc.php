@@ -29,7 +29,7 @@
 
     </div>
 
-    </section>
+</section>
 
         <div class="row sticky-top genreNav-bar" style="">
 
@@ -221,7 +221,7 @@
                             </div>
                         <!-- close poetry row -->
 
-            <a id="fiction"></a>
+            <div id="fiction"></div>
             <span class="text-center p-section-break">▴&nbsp;▴&nbsp;▴</span>
 
             <!-- start of fiction -->
@@ -313,7 +313,7 @@
                 </div>
             <!-- closes fiction row -->
 
-            <a id="novel-excerpt"></a>
+            <div id="novel-excerpt"></div>
             <span class="text-center p-section-break">▴&nbsp;▴&nbsp;▴</span>
 
             <!-- start of novel excerpt -->
@@ -390,7 +390,7 @@
                 </div>
             <!-- close novel excerpt row -->
 
-            <a id="nonfiction"></a>
+            <div id="nonfiction"></div>
         	<span class="text-center p-section-break">▴&nbsp;▴&nbsp;▴</span>
 
             <!-- opens row for nonfiction -->
